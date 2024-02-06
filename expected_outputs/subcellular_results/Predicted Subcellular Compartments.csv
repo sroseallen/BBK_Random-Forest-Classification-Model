@@ -1,0 +1,2457 @@
+Entry Name,true_compartments,predicted_compartments
+CD20_HUMAN,"Membrane,Extracellular",Membrane
+LIRA5_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+INT10_HUMAN,Nucleus,Nucleus
+F227A_HUMAN,None provided,None provided
+CD019_HUMAN,None provided,None provided
+CA147_HUMAN,None provided,None provided
+IGSF8_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+MACD1_HUMAN,Nucleus,Nucleus
+ZBT10_HUMAN,Nucleus,Nucleus
+DJB12_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+FBW12_HUMAN,None provided,None provided
+CTL3_HUMAN,Membrane,Membrane
+GDF15_HUMAN,"Golgi,Extracellular,Nucleus,Cytoplasm","Golgi,Extracellular,Nucleus,Cytoplasm"
+RBMX_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+GAN_HUMAN,Cytoplasm,Cytoplasm
+LRC40_HUMAN,Membrane,None provided
+MEPCE_HUMAN,Nucleus,Nucleus
+OR6B2_HUMAN,Membrane,Membrane
+FNTB_HUMAN,None provided,None provided
+FXL15_HUMAN,Cytoplasm,Cytoplasm
+GHR_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+TYW1B_HUMAN,None provided,None provided
+OR1C1_HUMAN,Membrane,Membrane
+TM187_HUMAN,Membrane,Membrane
+CREG1_HUMAN,Extracellular,Extracellular
+ZN474_HUMAN,None provided,None provided
+ACSF2_HUMAN,None provided,Membrane
+JPH3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ENASE_HUMAN,None provided,Membrane
+G6PD_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+GUF1_HUMAN,Membrane,Membrane
+SHC3_HUMAN,Membrane,Membrane
+LURA1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+DIRC2_HUMAN,Membrane,Membrane
+NAR4_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+AIMP2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CP4FC_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum"
+LRC69_HUMAN,None provided,None provided
+STK39_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+SNAT_HUMAN,Cytoplasm,Cytoplasm
+NXF2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CC183_HUMAN,None provided,None provided
+LOXL3_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+TTLL9_HUMAN,Cytoplasm,None provided
+I22R1_HUMAN,Membrane,Membrane
+STX7_HUMAN,"Membrane,Extracellular,Cytoplasm",None provided
+TSY26_HUMAN,Nucleus,Nucleus
+GPC5D_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+OGFD2_HUMAN,None provided,None provided
+O10C1_HUMAN,Membrane,Membrane
+SARNP_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+HP1B3_HUMAN,Nucleus,None provided
+RAB9A_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+S22AV_HUMAN,Membrane,Membrane
+CP2AD_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+RINI_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+MDM4_HUMAN,Nucleus,None provided
+MTMRA_HUMAN,Cytoplasm,Membrane
+ECEL1_HUMAN,Membrane,Membrane
+DTWD2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+RHG08_HUMAN,Cytoplasm,Cytoplasm
+KIF23_HUMAN,Nucleus,Nucleus
+SC6A2_HUMAN,Membrane,Membrane
+EFC1_HUMAN,Membrane,Membrane
+JADE1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+BORA_HUMAN,"Nucleus,Cytoplasm",None provided
+PALM3_HUMAN,"Membrane,Cytoplasm",Cytoplasm
+HYAL1_HUMAN,"Extracellular,Cytoplasm","Membrane,Extracellular"
+SESD1_HUMAN,None provided,None provided
+LRTM2_HUMAN,Membrane,Membrane
+C1QBP_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+CCNJL_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TMED1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+EFTU_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PKHA1_HUMAN,"Membrane,Extracellular,Cytoplasm",Cytoplasm
+UBQL4_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ADA10_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ATL5_HUMAN,Extracellular,Extracellular
+SPN90_HUMAN,Nucleus,None provided
+KLKB1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+SH3B4_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+CF015_HUMAN,Extracellular,Extracellular
+SAE1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+AIFM1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+MFNG_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+FKBP8_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ACOX2_HUMAN,Membrane,Membrane
+KLH17_HUMAN,"Extracellular,Cytoplasm",Membrane
+OR2T1_HUMAN,Membrane,Membrane
+SIA4A_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+ZN215_HUMAN,Nucleus,Nucleus
+ZN283_HUMAN,Nucleus,Nucleus
+PANX1_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+SC5A8_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+AL1B1_HUMAN,None provided,None provided
+GDS1_HUMAN,"Extracellular,Endoplasmic_Reticulum,Nucleus","Extracellular,Endoplasmic_Reticulum,Nucleus"
+FES_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+DUT_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+ZN840_HUMAN,Nucleus,Nucleus
+RCL1_HUMAN,None provided,None provided
+OTU6B_HUMAN,None provided,None provided
+IRF2_HUMAN,Nucleus,None provided
+CFA99_HUMAN,None provided,None provided
+FAM3D_HUMAN,Extracellular,Extracellular
+SOGA3_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+RNF44_HUMAN,None provided,None provided
+WDR89_HUMAN,None provided,None provided
+FBX5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PAK4_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+AAKG3_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+IF2B2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SPB8_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+RAB1A_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+2A5E_HUMAN,"Nucleus,Cytoplasm",Membrane
+NGLY1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PPB1_HUMAN,Membrane,None provided
+CNR1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+IQCK_HUMAN,None provided,None provided
+P3H1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+RHNO1_HUMAN,Nucleus,Nucleus
+T10IP_HUMAN,None provided,None provided
+BRDT_HUMAN,Nucleus,Nucleus
+XIAP_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+AMOL2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+AL1A3_HUMAN,"Extracellular,Cytoplasm",Cytoplasm
+MITF_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+RPB3_HUMAN,Nucleus,Nucleus
+P4HA2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PHLA1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+G3ST1_HUMAN,"Golgi,Membrane",Membrane
+KLD8A_HUMAN,None provided,None provided
+SPDE4_HUMAN,None provided,None provided
+ZN491_HUMAN,Nucleus,Nucleus
+TSN8_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZN781_HUMAN,Nucleus,Nucleus
+RED2_HUMAN,Cytoplasm,Cytoplasm
+DUS16_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+DCK_HUMAN,Cytoplasm,None provided
+GLNA_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+GAK1B_HUMAN,"Golgi,Membrane",None provided
+S53A1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+PDE4C_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+CLPT1_HUMAN,Membrane,Membrane
+ACTZ_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PPM1M_HUMAN,Nucleus,Nucleus
+KIF28_HUMAN,Membrane,"Membrane,Cytoplasm"
+ZN233_HUMAN,Nucleus,Nucleus
+CNOT6_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+CLK2_HUMAN,Nucleus,Nucleus
+GOLP3_HUMAN,"Golgi,Membrane",Membrane
+CSDE1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+SYC2L_HUMAN,Nucleus,Membrane
+MACIR_HUMAN,Cytoplasm,Cytoplasm
+TMTC2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+OR2G2_HUMAN,Membrane,Membrane
+CALRL_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+TGM7_HUMAN,None provided,None provided
+GMDS_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+CCD30_HUMAN,None provided,None provided
+KLK11_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+CLC4K_HUMAN,Membrane,Membrane
+ZN442_HUMAN,Nucleus,Nucleus
+MOS_HUMAN,Cytoplasm,Cytoplasm
+PIBF1_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+C102B_HUMAN,Cytoplasm,Cytoplasm
+PP6R1_HUMAN,Nucleus,Nucleus
+ZDHC7_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum",Membrane
+CXCR6_HUMAN,Membrane,Membrane
+GDIR3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CLK3_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+LMX1B_HUMAN,Nucleus,Nucleus
+KGP1_HUMAN,"Golgi,Membrane,Cytoplasm","Membrane,Nucleus"
+HXC13_HUMAN,Nucleus,Nucleus
+TF2B_HUMAN,Nucleus,Nucleus
+RN19B_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+TBL3_HUMAN,None provided,None provided
+CY24B_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+KHDR2_HUMAN,Nucleus,Nucleus
+FZD1_HUMAN,Membrane,Membrane
+IF4E_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+ZSCA4_HUMAN,Nucleus,Nucleus
+HXB8_HUMAN,Nucleus,Nucleus
+HAUS1_HUMAN,None provided,Nucleus
+MARH8_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+ARH38_HUMAN,Cytoplasm,Cytoplasm
+UNKL_HUMAN,Nucleus,Nucleus
+RFIP2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TS1R3_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+EIF3L_HUMAN,Membrane,Membrane
+STRP2_HUMAN,Cytoplasm,Cytoplasm
+TM86A_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+TTC4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KC1G2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+NR1H3_HUMAN,"Nucleus,Cytoplasm",None provided
+NDUV2_HUMAN,Membrane,Extracellular
+SNP25_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+GALNS_HUMAN,Extracellular,Extracellular
+RHOJ_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CCD89_HUMAN,"Nucleus,Cytoplasm",None provided
+KIF3B_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+KRA91_HUMAN,None provided,None provided
+TEFF1_HUMAN,Membrane,"Extracellular,Nucleus"
+ZN567_HUMAN,Nucleus,Nucleus
+CR021_HUMAN,None provided,None provided
+HEM0_HUMAN,Membrane,Membrane
+KLH31_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SRR_HUMAN,Cytoplasm,Cytoplasm
+HNF1A_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+FADS6_HUMAN,Membrane,Membrane
+HSFX3_HUMAN,Nucleus,Nucleus
+TBCD5_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+O10A5_HUMAN,Membrane,Membrane
+PDLI7_HUMAN,None provided,None provided
+FCGR1_HUMAN,Membrane,Membrane
+GLT16_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CSN8_HUMAN,"Extracellular,Nucleus,Cytoplasm",None provided
+EEIG2_HUMAN,None provided,None provided
+G3BP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+EKI1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+OR7C1_HUMAN,Membrane,Membrane
+LBHD1_HUMAN,Nucleus,Nucleus
+CCG1_HUMAN,Membrane,Membrane
+KCNRG_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+PTBP1_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+IQCE_HUMAN,Membrane,Membrane
+RIP_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NDOR1_HUMAN,Cytoplasm,Membrane
+OSTM1_HUMAN,Membrane,Membrane
+SAM50_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CAH10_HUMAN,None provided,None provided
+GATA1_HUMAN,Nucleus,None provided
+HOT_HUMAN,None provided,None provided
+TFEB_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ZBT43_HUMAN,Nucleus,Nucleus
+DDRGK_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+KDM4F_HUMAN,Nucleus,None provided
+MMP8_HUMAN,Extracellular,Extracellular
+PBIR1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ERGI1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+PYGO1_HUMAN,None provided,None provided
+CEL_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PRI2_HUMAN,None provided,None provided
+PITM3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+S35F1_HUMAN,Membrane,Membrane
+MBNL3_HUMAN,Nucleus,Nucleus
+EPMIP_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+KLH40_HUMAN,Cytoplasm,None provided
+MUTA_HUMAN,Cytoplasm,Cytoplasm
+RNPC3_HUMAN,Nucleus,Nucleus
+ZN524_HUMAN,Nucleus,Nucleus
+K2C4_HUMAN,Nucleus,Nucleus
+S6A20_HUMAN,Membrane,Membrane
+NSMF_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+PDILT_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+NRL_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ASTRB_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+STOX1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+VPS51_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CEP89_HUMAN,Membrane,Membrane
+MLC1_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+MTLR_HUMAN,Membrane,Membrane
+T200C_HUMAN,Membrane,Membrane
+PNM8B_HUMAN,None provided,None provided
+CD2B2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GTR3_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+HMOX1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+GSTO2_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+AK17A_HUMAN,Nucleus,Nucleus
+PGBD1_HUMAN,Membrane,Membrane
+PED1B_HUMAN,None provided,None provided
+RASFA_HUMAN,None provided,None provided
+NRBF2_HUMAN,Cytoplasm,Cytoplasm
+SPRE_HUMAN,Extracellular,Membrane
+HXC10_HUMAN,Nucleus,Nucleus
+K0513_HUMAN,Cytoplasm,Cytoplasm
+GRPE2_HUMAN,Membrane,Membrane
+TY3H_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+MOG_HUMAN,Membrane,Membrane
+NUCG_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CUL2_HUMAN,None provided,None provided
+ESTD_HUMAN,"Extracellular,Endoplasmic_Reticulum,Cytoplasm","Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+GBRP_HUMAN,Membrane,Membrane
+OR5MA_HUMAN,Membrane,Membrane
+MLEC_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+BMP3_HUMAN,Extracellular,Extracellular
+SHLD3_HUMAN,None provided,None provided
+ACD_HUMAN,None provided,None provided
+YLAT1_HUMAN,Membrane,Membrane
+GBP5_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+UTP4_HUMAN,None provided,None provided
+BCAT1_HUMAN,None provided,None provided
+EFCB7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+FOXQ1_HUMAN,Nucleus,Nucleus
+ZN550_HUMAN,Nucleus,Nucleus
+RA54B_HUMAN,Nucleus,Nucleus
+HEM3_HUMAN,Cytoplasm,None provided
+SIR7_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+K1908_HUMAN,None provided,None provided
+CLMP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+T176B_HUMAN,Membrane,Membrane
+OR2F1_HUMAN,Membrane,Membrane
+ZDH13_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum",Membrane
+NEMP1_HUMAN,Membrane,Membrane
+Z3H7A_HUMAN,Nucleus,Nucleus
+ABCD4_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+UBIP1_HUMAN,Nucleus,Nucleus
+SCAM2_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+FRRS1_HUMAN,Membrane,Membrane
+PAMR1_HUMAN,Extracellular,Extracellular
+CSAD_HUMAN,Cytoplasm,Cytoplasm
+CREL2_HUMAN,"Golgi,Extracellular,Endoplasmic_Reticulum","Golgi,Extracellular,Endoplasmic_Reticulum"
+CHKB_HUMAN,Cytoplasm,Cytoplasm
+TISD_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+T161A_HUMAN,Membrane,Membrane
+ENPP4_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+EXOC8_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+GTPB8_HUMAN,None provided,None provided
+POC1A_HUMAN,Cytoplasm,None provided
+UTP25_HUMAN,None provided,None provided
+NP1L3_HUMAN,Nucleus,Nucleus
+TRI48_HUMAN,Cytoplasm,Cytoplasm
+TRPC4_HUMAN,Membrane,"Membrane,Cytoplasm"
+FUT10_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+PRDM1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+F220A_HUMAN,Nucleus,Nucleus
+SEP10_HUMAN,None provided,None provided
+UTF1_HUMAN,Nucleus,None provided
+GP107_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+FA98C_HUMAN,None provided,None provided
+FXRD2_HUMAN,Endoplasmic_Reticulum,Membrane
+SSDH_HUMAN,None provided,None provided
+S39A6_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+NAGAB_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+CBX7_HUMAN,Nucleus,Nucleus
+KLF6_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+E2F5_HUMAN,Membrane,Membrane
+KCNG3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+EIF3M_HUMAN,None provided,None provided
+WWP2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+STAR5_HUMAN,None provided,None provided
+KS6A2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ANGE2_HUMAN,Cytoplasm,Cytoplasm
+CLM7_HUMAN,Membrane,Membrane
+OTC_HUMAN,Membrane,Membrane
+ARM12_HUMAN,"Membrane,Nucleus",None provided
+MYOC_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+MUTYH_HUMAN,Nucleus,Nucleus
+SP100_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+HCN2_HUMAN,Membrane,Membrane
+ABHD3_HUMAN,Membrane,Membrane
+CD244_HUMAN,Membrane,Membrane
+KLF15_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CLD11_HUMAN,Membrane,Membrane
+ATOH8_HUMAN,"Nucleus,Cytoplasm",Nucleus
+CCNG1_HUMAN,"Nucleus,Cytoplasm",Nucleus
+PCDAD_HUMAN,Membrane,Membrane
+CK5P3_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+F110A_HUMAN,Nucleus,Nucleus
+TFB2M_HUMAN,None provided,None provided
+IRF7_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+KLH29_HUMAN,None provided,None provided
+GS1L2_HUMAN,Membrane,Membrane
+RAB6B_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+I13R1_HUMAN,Membrane,Membrane
+GPC5B_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+KRT86_HUMAN,Extracellular,Extracellular
+PARP6_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+ZN841_HUMAN,Nucleus,Nucleus
+BPIA2_HUMAN,Extracellular,Extracellular
+NPIA1_HUMAN,Membrane,Membrane
+AMRP_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+DBP_HUMAN,Nucleus,Nucleus
+GLYG2_HUMAN,Cytoplasm,Cytoplasm
+RENR_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+MYD88_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+U1SBP_HUMAN,Nucleus,Nucleus
+KPCD3_HUMAN,Membrane,Membrane
+KIF2B_HUMAN,None provided,None provided
+RS4X_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+PDLI1_HUMAN,Cytoplasm,Cytoplasm
+PTN7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CRCM1_HUMAN,Membrane,Membrane
+TIM44_HUMAN,Membrane,Membrane
+PYRD_HUMAN,Membrane,None provided
+TGR3L_HUMAN,Membrane,Membrane
+DMA_HUMAN,Membrane,Membrane
+STX16_HUMAN,"Golgi,Membrane,Cytoplasm",Nucleus
+NEUR3_HUMAN,"Membrane,Cytoplasm",Membrane
+GNT2A_HUMAN,"Golgi,Membrane",Membrane
+OVOL1_HUMAN,Nucleus,Nucleus
+TNPO3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TFG_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm",Nucleus
+RUSF1_HUMAN,Membrane,Membrane
+NIT1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+XKR7_HUMAN,Membrane,Membrane
+ZN121_HUMAN,Nucleus,Nucleus
+FBX25_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ZWILC_HUMAN,None provided,None provided
+PRR7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+LAMP3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+RXFP1_HUMAN,Membrane,Membrane
+HAPR1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CTLA4_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+SODE_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+ANKR9_HUMAN,Cytoplasm,None provided
+SMBT2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+PBIR2_HUMAN,None provided,None provided
+ABCG2_HUMAN,Membrane,Membrane
+GAB2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+FEM1B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+INHBE_HUMAN,Extracellular,Extracellular
+ELP5_HUMAN,"Nucleus,Cytoplasm",None provided
+NR1D2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+F170A_HUMAN,Nucleus,Nucleus
+PKHG7_HUMAN,None provided,None provided
+NTR1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+F1712_HUMAN,Membrane,Membrane
+RASEF_HUMAN,Cytoplasm,Cytoplasm
+1433Z_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+TXD15_HUMAN,Membrane,Membrane
+TF65_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TM236_HUMAN,Membrane,Membrane
+DMAP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+BI2L1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+SATT_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+RPGFL_HUMAN,Membrane,Membrane
+TMX1_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+BRNP3_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+K0930_HUMAN,None provided,None provided
+DRB1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+A2GL_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+AOFB_HUMAN,Membrane,Membrane
+MOK_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PHAR3_HUMAN,None provided,None provided
+PRLD1_HUMAN,Membrane,"Membrane,Cytoplasm"
+PEDF_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+DDX41_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+TNFL6_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+FUT1_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MELT_HUMAN,Membrane,Membrane
+DDIAS_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+HAUS5_HUMAN,None provided,None provided
+HXA2_HUMAN,Membrane,Membrane
+PCID2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SERA_HUMAN,Extracellular,Extracellular
+CNO6L_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NEK2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KR241_HUMAN,None provided,None provided
+IGSF5_HUMAN,Membrane,Membrane
+LAMP5_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm",None provided
+S23A3_HUMAN,Membrane,Membrane
+RGS2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+OR7D4_HUMAN,Membrane,Membrane
+KBTB6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ANGP4_HUMAN,Extracellular,Extracellular
+MTX2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+HNRLL_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+SPG21_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+BTNL8_HUMAN,Membrane,Membrane
+BEAN1_HUMAN,Membrane,None provided
+ZN556_HUMAN,Nucleus,Nucleus
+TM145_HUMAN,Membrane,Membrane
+O10G6_HUMAN,Membrane,Membrane
+RP9_HUMAN,Nucleus,Nucleus
+ANO1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+TINAL_HUMAN,"Extracellular,Cytoplasm",Extracellular
+MRGBP_HUMAN,None provided,None provided
+UBP46_HUMAN,Nucleus,Nucleus
+DCBD2_HUMAN,Membrane,Membrane
+GOLM2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+EIF3G_HUMAN,Cytoplasm,Nucleus
+GRN_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+KPRP_HUMAN,"Extracellular,Cytoplasm",None provided
+CHST8_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CCDC8_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ACADS_HUMAN,Nucleus,Nucleus
+MAGBG_HUMAN,Nucleus,Nucleus
+FA83F_HUMAN,None provided,None provided
+SACDR_HUMAN,Nucleus,Nucleus
+Z585A_HUMAN,Nucleus,Nucleus
+B3GNL_HUMAN,None provided,None provided
+OSGI1_HUMAN,None provided,None provided
+FBX34_HUMAN,None provided,None provided
+MCUB_HUMAN,Membrane,Membrane
+TEX38_HUMAN,Membrane,Membrane
+BAG4_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+NUSAP_HUMAN,Cytoplasm,None provided
+TAAR5_HUMAN,Membrane,Membrane
+MOT9_HUMAN,Membrane,Membrane
+PRA26_HUMAN,Cytoplasm,Cytoplasm
+SRCH_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+MEIOS_HUMAN,Nucleus,Nucleus
+F171B_HUMAN,Membrane,Membrane
+IOD1_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+REEP2_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+PTN2_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+RBM10_HUMAN,Nucleus,Nucleus
+VPS35_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ANS4B_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+OXGR1_HUMAN,Membrane,Membrane
+GFRA3_HUMAN,Membrane,Membrane
+ENH1_HUMAN,Membrane,Membrane
+OR2T2_HUMAN,Membrane,Membrane
+STX6_HUMAN,"Golgi,Membrane,Cytoplasm",Membrane
+ELOA1_HUMAN,Extracellular,Extracellular
+CAPSL_HUMAN,Cytoplasm,Cytoplasm
+AP1AR_HUMAN,Golgi,Golgi
+GRK4_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TASL_HUMAN,Membrane,None provided
+DCA15_HUMAN,None provided,None provided
+PMEPA_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+TFDP3_HUMAN,"Nucleus,Cytoplasm",None provided
+CNOT3_HUMAN,Nucleus,None provided
+VPS4B_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+ESYT3_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm",Membrane
+PTSS1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+RT30_HUMAN,Membrane,Membrane
+DNJB9_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+LRRC3_HUMAN,Membrane,Membrane
+CIP2A_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TFDP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NCLN_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+OR8J3_HUMAN,Membrane,Membrane
+WLS_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+ICAM5_HUMAN,Membrane,Membrane
+YTHD1_HUMAN,Cytoplasm,"Nucleus,Cytoplasm"
+CV042_HUMAN,None provided,None provided
+SRRM5_HUMAN,None provided,None provided
+ACSF3_HUMAN,None provided,None provided
+SCN3B_HUMAN,Membrane,Membrane
+YH006_HUMAN,Extracellular,Membrane
+MGT4C_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+ZN786_HUMAN,Nucleus,Nucleus
+PDIA2_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+NOP53_HUMAN,Membrane,Membrane
+OSTF1_HUMAN,Extracellular,Extracellular
+SMOC2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZSC30_HUMAN,Nucleus,Nucleus
+YH009_HUMAN,None provided,None provided
+BPIA1_HUMAN,Extracellular,Extracellular
+DZI1L_HUMAN,Cytoplasm,Cytoplasm
+NRBP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+NPT2A_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+APBA1_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+MAP6_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+CYTIP_HUMAN,Cytoplasm,Cytoplasm
+NUDC_HUMAN,Cytoplasm,Cytoplasm
+ACTB_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+CF099_HUMAN,None provided,None provided
+FUBP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+F110C_HUMAN,Nucleus,Nucleus
+ZIC1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+H2AW_HUMAN,Extracellular,Nucleus
+FHR2_HUMAN,Extracellular,Extracellular
+SRTD2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+IDH3A_HUMAN,Nucleus,Nucleus
+CA074_HUMAN,None provided,None provided
+ZBTB1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CCD34_HUMAN,None provided,None provided
+DBX2_HUMAN,Nucleus,None provided
+PDE9A_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+STX19_HUMAN,Membrane,Membrane
+CHM4C_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ACKR2_HUMAN,Membrane,Membrane
+DMRTD_HUMAN,Nucleus,Nucleus
+PCKGC_HUMAN,"Extracellular,Endoplasmic_Reticulum,Cytoplasm","Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+CC120_HUMAN,None provided,None provided
+GCYA2_HUMAN,None provided,None provided
+NDC1_HUMAN,"Membrane,Cytoplasm",Membrane
+S26A6_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+ZPBP1_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+PDE6B_HUMAN,Membrane,Membrane
+CENPN_HUMAN,Nucleus,Nucleus
+TCAB1_HUMAN,None provided,None provided
+NT5C_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+RRAGD_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+UVRAG_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+NET3_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+GALM_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+CABP2_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+ZDHC2_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+NEUM_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MATN2_HUMAN,Extracellular,Extracellular
+GPDA_HUMAN,Extracellular,Extracellular
+PSA6_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+VTM2B_HUMAN,Membrane,None provided
+HTSF1_HUMAN,Nucleus,Nucleus
+UPP_HUMAN,"Membrane,Cytoplasm",None provided
+EIF3I_HUMAN,Extracellular,Extracellular
+MSLNL_HUMAN,Membrane,Membrane
+DAA11_HUMAN,"Extracellular,Cytoplasm",None provided
+CBR1_HUMAN,Extracellular,Extracellular
+A2AP_HUMAN,Extracellular,Extracellular
+SHCAF_HUMAN,Nucleus,Nucleus
+WASL_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+BTBD3_HUMAN,Nucleus,Nucleus
+OR2K2_HUMAN,Membrane,Membrane
+HXA7_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CBLB_HUMAN,Membrane,None provided
+PLCX3_HUMAN,Cytoplasm,Cytoplasm
+ANGP2_HUMAN,Extracellular,Extracellular
+TFE3_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+CSTOS_HUMAN,None provided,None provided
+TKTL1_HUMAN,None provided,None provided
+O10K1_HUMAN,Membrane,Membrane
+GRB14_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+GPR83_HUMAN,Membrane,Membrane
+WNT7A_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum",Extracellular
+SBK2_HUMAN,None provided,None provided
+WDR88_HUMAN,None provided,None provided
+TBX10_HUMAN,Nucleus,Nucleus
+LEG1H_HUMAN,Extracellular,Extracellular
+ERR1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MAD4_HUMAN,None provided,None provided
+S5A2_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+SC23A_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum"
+SUMF1_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+ZN782_HUMAN,Nucleus,Nucleus
+PHLP_HUMAN,Cytoplasm,Cytoplasm
+AFG2A_HUMAN,Cytoplasm,"Membrane,Nucleus,Cytoplasm"
+SRSF4_HUMAN,Nucleus,Nucleus
+IKZF1_HUMAN,Nucleus,Nucleus
+NUD18_HUMAN,None provided,None provided
+LYPA1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+ITIH3_HUMAN,Extracellular,"Membrane,Extracellular,Cytoplasm"
+ALKB7_HUMAN,None provided,None provided
+UTP18_HUMAN,"Membrane,Nucleus","Nucleus,Cytoplasm"
+TIA1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+RPAB1_HUMAN,Nucleus,Nucleus
+TULP2_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PABP5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GT253_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+NCAM2_HUMAN,Membrane,Extracellular
+RDHE2_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus","Membrane,Endoplasmic_Reticulum,Nucleus"
+GGA1_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+KLF11_HUMAN,Nucleus,Nucleus
+HDGL1_HUMAN,Nucleus,Nucleus
+MA1B1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm",Membrane
+BLML_HUMAN,None provided,None provided
+GSTM1_HUMAN,Cytoplasm,Cytoplasm
+PRS41_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+FBX46_HUMAN,None provided,None provided
+MFSD6_HUMAN,Membrane,Membrane
+TSN_HUMAN,"Endoplasmic_Reticulum,Nucleus,Cytoplasm",Membrane
+ZFAN1_HUMAN,Cytoplasm,Cytoplasm
+ZN772_HUMAN,Nucleus,Nucleus
+WDR27_HUMAN,None provided,None provided
+NQO2_HUMAN,Extracellular,Extracellular
+RTKN2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+TRI16_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+PPOX_HUMAN,Membrane,Membrane
+KS6A5_HUMAN,"Nucleus,Cytoplasm",None provided
+EXO1_HUMAN,"Membrane,Nucleus",None provided
+WEE1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ITB5_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+BSSP4_HUMAN,Extracellular,Extracellular
+PP4R1_HUMAN,None provided,Membrane
+PDD2L_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+YS043_HUMAN,None provided,None provided
+PERM1_HUMAN,"Nucleus,Cytoplasm",None provided
+GIPC2_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PSTK_HUMAN,None provided,None provided
+SWET1_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CCSE1_HUMAN,None provided,None provided
+MIS_HUMAN,Extracellular,Extracellular
+ANX10_HUMAN,Cytoplasm,Cytoplasm
+PRPS2_HUMAN,Cytoplasm,Cytoplasm
+COG3_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CNN2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+NUD12_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KLDC2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+T22D2_HUMAN,None provided,None provided
+TM204_HUMAN,Membrane,Membrane
+PDE5A_HUMAN,None provided,None provided
+FIGL1_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+TM6S1_HUMAN,Membrane,Membrane
+LDB2_HUMAN,"Membrane,Nucleus",Nucleus
+MED18_HUMAN,Nucleus,Nucleus
+NAIF1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+MEF2A_HUMAN,Nucleus,Nucleus
+OXR1_HUMAN,Nucleus,Nucleus
+ERFL_HUMAN,Nucleus,Nucleus
+VDR_HUMAN,Nucleus,Nucleus
+CMS1_HUMAN,None provided,None provided
+ERG1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PGS1_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+QKI_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TF2H3_HUMAN,Nucleus,Nucleus
+TRM6_HUMAN,Nucleus,Nucleus
+RTL3_HUMAN,Nucleus,Nucleus
+INT15_HUMAN,None provided,None provided
+CATL1_HUMAN,"Golgi,Membrane,Extracellular,Nucleus","Membrane,Extracellular"
+KLHL3_HUMAN,None provided,None provided
+RSRP1_HUMAN,Nucleus,Nucleus
+SWP70_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+T106C_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+TPH1_HUMAN,None provided,None provided
+CAPR1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CT55_HUMAN,Cytoplasm,Cytoplasm
+BBOF1_HUMAN,Cytoplasm,Cytoplasm
+TBX5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+IBP1_HUMAN,"Golgi,Extracellular,Endoplasmic_Reticulum",None provided
+KPCI_HUMAN,"Golgi,Membrane,Extracellular,Nucleus","Golgi,Membrane,Extracellular,Nucleus"
+ARMD4_HUMAN,Membrane,Membrane
+PRS7_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+S15A2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+SCEL_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+SRFB1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ZKSC7_HUMAN,Nucleus,Nucleus
+GSG1L_HUMAN,Membrane,Membrane
+T191B_HUMAN,Membrane,Membrane
+LNX2_HUMAN,Membrane,Membrane
+TRADD_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+AP4AT_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+KLH14_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+RM03_HUMAN,Membrane,Membrane
+D19L3_HUMAN,Membrane,Membrane
+VPS41_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+PIGF_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+RBM39_HUMAN,None provided,None provided
+DDX52_HUMAN,Membrane,Membrane
+LMBL2_HUMAN,Nucleus,None provided
+PRD12_HUMAN,Nucleus,Nucleus
+ASB7_HUMAN,None provided,None provided
+PDIA1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+CB5D1_HUMAN,Cytoplasm,Cytoplasm
+SND1_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+TM248_HUMAN,Membrane,Membrane
+H2AY_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+CLC7A_HUMAN,"Membrane,Cytoplasm",Membrane
+KCD15_HUMAN,Nucleus,Nucleus
+VP33B_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+TALAN_HUMAN,None provided,None provided
+IRAK4_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm",None provided
+RPTN_HUMAN,Extracellular,Extracellular
+MGT5B_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+ZN891_HUMAN,Nucleus,Nucleus
+URP2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+GRAP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ZN578_HUMAN,Nucleus,Nucleus
+ZN433_HUMAN,Nucleus,Nucleus
+TSYL5_HUMAN,Nucleus,Nucleus
+ZN696_HUMAN,Nucleus,Nucleus
+SRPK1_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+CXA5_HUMAN,Membrane,Membrane
+DXO_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+ALG9_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ACO11_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+CI072_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+RT18B_HUMAN,Membrane,Membrane
+P20D2_HUMAN,None provided,None provided
+FXL18_HUMAN,None provided,None provided
+CISY_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+SPS2_HUMAN,Cytoplasm,Cytoplasm
+AMER3_HUMAN,Membrane,None provided
+OR5I1_HUMAN,Membrane,Membrane
+HAUS7_HUMAN,Membrane,Membrane
+ZN662_HUMAN,Nucleus,Nucleus
+NOP14_HUMAN,Membrane,Membrane
+DDX42_HUMAN,"Membrane,Nucleus,Cytoplasm",Nucleus
+FANCB_HUMAN,None provided,Membrane
+DUXB_HUMAN,Nucleus,Nucleus
+PRSR1_HUMAN,None provided,None provided
+CC122_HUMAN,None provided,None provided
+AURKC_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ADAM5_HUMAN,None provided,None provided
+IRAK2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+OPSD_HUMAN,"Golgi,Membrane",Membrane
+CXAR_HUMAN,"Membrane,Extracellular,Cytoplasm",None provided
+RN149_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+PWP2_HUMAN,None provided,None provided
+MP2K6_HUMAN,Cytoplasm,Cytoplasm
+PLPP3_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+ABHGA_HUMAN,Membrane,Membrane
+MPIP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SGCB_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MTMRE_HUMAN,Cytoplasm,Cytoplasm
+AURKB_HUMAN,Nucleus,Nucleus
+ZN793_HUMAN,Nucleus,Nucleus
+ZN511_HUMAN,Nucleus,Nucleus
+GARE1_HUMAN,Membrane,Membrane
+ZN214_HUMAN,Nucleus,Nucleus
+OFCC1_HUMAN,None provided,None provided
+ZN75D_HUMAN,Nucleus,Nucleus
+SHRPN_HUMAN,None provided,None provided
+GCP3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+VN1R4_HUMAN,Membrane,Membrane
+ELMD1_HUMAN,None provided,None provided
+APH1A_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+PERL_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ILRUN_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KDM1B_HUMAN,Nucleus,Nucleus
+RING2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CP4AB_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+ESAM_HUMAN,Membrane,Membrane
+CC160_HUMAN,None provided,None provided
+FZD10_HUMAN,"Membrane,Cytoplasm",Membrane
+TRUB1_HUMAN,Nucleus,Nucleus
+PPR3D_HUMAN,None provided,None provided
+PANKY_HUMAN,Nucleus,Nucleus
+CPNE2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+CLC11_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+IFT74_HUMAN,Nucleus,Nucleus
+SMAD4_HUMAN,"Nucleus,Cytoplasm",Membrane
+RBG10_HUMAN,None provided,None provided
+TPRG1_HUMAN,Cytoplasm,Cytoplasm
+PAPD7_HUMAN,"Golgi,Membrane,Nucleus","Golgi,Membrane,Nucleus"
+CD36_HUMAN,"Golgi,Membrane,Extracellular,Cytoplasm","Golgi,Membrane,Extracellular,Cytoplasm"
+SP2_HUMAN,None provided,None provided
+ZN33A_HUMAN,Nucleus,Nucleus
+PRR5L_HUMAN,None provided,Membrane
+CD44_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+GSTA4_HUMAN,None provided,None provided
+PGAM1_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+SRP54_HUMAN,"Endoplasmic_Reticulum,Nucleus,Cytoplasm","Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+SPSB4_HUMAN,None provided,None provided
+AHSA1_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+ACMSD_HUMAN,Cytoplasm,Cytoplasm
+ALKB5_HUMAN,"Golgi,Nucleus","Golgi,Nucleus"
+ACVL1_HUMAN,Membrane,Membrane
+CSF1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+ALG14_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ZN397_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+LZTL1_HUMAN,Cytoplasm,None provided
+CM042_HUMAN,None provided,None provided
+BPIFC_HUMAN,Extracellular,Extracellular
+PD1L2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+TINF2_HUMAN,None provided,None provided
+ZN408_HUMAN,Nucleus,Nucleus
+ADH1A_HUMAN,Membrane,Membrane
+NECA2_HUMAN,"Membrane,Cytoplasm",None provided
+S2611_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+TSN32_HUMAN,None provided,None provided
+ZNF43_HUMAN,Nucleus,Nucleus
+SCAM5_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MACC1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NDRG4_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+KLHL2_HUMAN,Cytoplasm,Cytoplasm
+DUS12_HUMAN,"Nucleus,Cytoplasm",None provided
+POPD2_HUMAN,Membrane,Membrane
+PAOX_HUMAN,None provided,None provided
+RFC3_HUMAN,Nucleus,None provided
+PILRA_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+FA81A_HUMAN,None provided,None provided
+RD23A_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+RM21_HUMAN,Membrane,Membrane
+OTOP2_HUMAN,Membrane,Membrane
+ADT1_HUMAN,Membrane,Membrane
+YIPF7_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+CHMP3_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+SPF45_HUMAN,None provided,None provided
+TGM2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+KIF19_HUMAN,None provided,None provided
+CO9A2_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+AJUBA_HUMAN,"Golgi,Membrane,Nucleus","Golgi,Membrane,Nucleus"
+PTH2R_HUMAN,Membrane,Membrane
+ODBB_HUMAN,None provided,Membrane
+S22AE_HUMAN,Membrane,Membrane
+EFHC2_HUMAN,None provided,None provided
+SIGL6_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZN107_HUMAN,Nucleus,Nucleus
+ARV1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+VMAT1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ARK72_HUMAN,"Golgi,Extracellular,Cytoplasm","Golgi,Extracellular,Cytoplasm"
+MNAR1_HUMAN,Membrane,Membrane
+CLD19_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+EREP2_HUMAN,Membrane,Membrane
+ZBTB2_HUMAN,None provided,None provided
+UB2Q2_HUMAN,Nucleus,Nucleus
+HLF_HUMAN,Nucleus,Nucleus
+MEX3D_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ELMO2_HUMAN,Membrane,Membrane
+SH3K1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ZF64B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SATB1_HUMAN,Nucleus,Cytoplasm
+STAT2_HUMAN,"Membrane,Nucleus",None provided
+NBPF6_HUMAN,Cytoplasm,Cytoplasm
+PO2F3_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+GRAM4_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+SHLD1_HUMAN,None provided,None provided
+F1142_HUMAN,None provided,None provided
+CU058_HUMAN,None provided,Nucleus
+EDEM2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ARSL_HUMAN,"Golgi,Extracellular,Endoplasmic_Reticulum","Golgi,Extracellular,Endoplasmic_Reticulum"
+RGN_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+RBMS3_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CCDC9_HUMAN,None provided,None provided
+GEMC1_HUMAN,Nucleus,None provided
+ECT2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+OCEL1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CHSTF_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+SUFU_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CDKAL_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+IRG1_HUMAN,None provided,None provided
+ASB15_HUMAN,Membrane,Membrane
+GPR32_HUMAN,Membrane,Membrane
+CAN8_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+ZC3H8_HUMAN,Nucleus,Nucleus
+OR7AH_HUMAN,Membrane,Membrane
+ZBT49_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+VHL_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus",None provided
+YA043_HUMAN,Membrane,Membrane
+CEGT_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+PNMA1_HUMAN,Cytoplasm,Cytoplasm
+TYSD1_HUMAN,Membrane,Membrane
+IER5_HUMAN,"Nucleus,Cytoplasm",None provided
+EDNRB_HUMAN,Membrane,Membrane
+PGAM4_HUMAN,Extracellular,Extracellular
+PRCC_HUMAN,Nucleus,Nucleus
+LARP7_HUMAN,Nucleus,None provided
+MEOX2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CELF6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TTPA_HUMAN,None provided,None provided
+ABHEB_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+MPZL1_HUMAN,Membrane,Membrane
+FETUB_HUMAN,Extracellular,Extracellular
+TASP1_HUMAN,Cytoplasm,Cytoplasm
+SEN34_HUMAN,None provided,None provided
+HLX_HUMAN,Nucleus,Nucleus
+ITBP2_HUMAN,None provided,None provided
+LC7L2_HUMAN,None provided,None provided
+EXO5_HUMAN,Nucleus,None provided
+MGT4A_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+AEN_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+PAQR4_HUMAN,Membrane,Membrane
+S35F6_HUMAN,"Membrane,Extracellular",Membrane
+S30BP_HUMAN,Nucleus,Nucleus
+DPF1_HUMAN,Cytoplasm,Nucleus
+EF1B_HUMAN,Cytoplasm,Cytoplasm
+AGTR2_HUMAN,Membrane,Membrane
+JOS1_HUMAN,Membrane,Membrane
+LIGO1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PPARG_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+ZNHI2_HUMAN,None provided,None provided
+PE2R3_HUMAN,Membrane,Membrane
+FOXC2_HUMAN,Nucleus,Nucleus
+UBX10_HUMAN,Endoplasmic_Reticulum,Nucleus
+ZBT22_HUMAN,Nucleus,Nucleus
+SEP12_HUMAN,"Nucleus,Cytoplasm",None provided
+ZN683_HUMAN,Nucleus,Nucleus
+ARP3B_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+LENG1_HUMAN,None provided,None provided
+OR8S1_HUMAN,Membrane,Membrane
+GLU2B_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CGRF1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+GP161_HUMAN,Membrane,Membrane
+OR1L6_HUMAN,Membrane,Membrane
+LPP_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+MYCN_HUMAN,Nucleus,Nucleus
+TM1L1_HUMAN,"Golgi,Membrane,Extracellular,Cytoplasm","Golgi,Membrane,Extracellular,Cytoplasm"
+SMCO1_HUMAN,Membrane,Membrane
+NUDT9_HUMAN,"Membrane,Extracellular",Extracellular
+SBSPO_HUMAN,Extracellular,Extracellular
+INP4A_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+COX10_HUMAN,Membrane,Membrane
+RBM24_HUMAN,Nucleus,Nucleus
+PEX12_HUMAN,Membrane,Membrane
+AQP5_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm",Membrane
+TBA3C_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SAMD3_HUMAN,None provided,None provided
+AIP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TRI74_HUMAN,Cytoplasm,Cytoplasm
+ZN584_HUMAN,Nucleus,Nucleus
+APOA5_HUMAN,"Golgi,Extracellular,Endoplasmic_Reticulum","Golgi,Extracellular,Endoplasmic_Reticulum"
+GPM6B_HUMAN,Membrane,Membrane
+ADPPT_HUMAN,Extracellular,Extracellular
+CASP9_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CNMD_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PTGR3_HUMAN,None provided,None provided
+ZN677_HUMAN,Nucleus,Nucleus
+PPM1F_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+UBP16_HUMAN,"Nucleus,Cytoplasm",None provided
+ZN713_HUMAN,Nucleus,Nucleus
+VTNC_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+G32P1_HUMAN,Membrane,Membrane
+RHOF_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+S2542_HUMAN,"Membrane,Nucleus",Membrane
+PLPP2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CD123_HUMAN,Cytoplasm,Cytoplasm
+FXL14_HUMAN,Cytoplasm,None provided
+SOX5_HUMAN,Nucleus,"Membrane,Nucleus,Cytoplasm"
+CHIA_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+P2R3B_HUMAN,Nucleus,Nucleus
+MS18B_HUMAN,"Membrane,Nucleus","Membrane,Extracellular"
+CUZD1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CF062_HUMAN,None provided,None provided
+S2541_HUMAN,Membrane,Membrane
+ASCC1_HUMAN,Nucleus,Nucleus
+CP4X1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+LRC8E_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+KCD19_HUMAN,Nucleus,Membrane
+CF298_HUMAN,Nucleus,Nucleus
+OSBP2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Cytoplasm"
+DPOLL_HUMAN,Nucleus,Nucleus
+HTF4_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+GNPTG_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+KTNB1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+EGFL8_HUMAN,Extracellular,Extracellular
+FHI1B_HUMAN,None provided,None provided
+SLAP2_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+GDNF_HUMAN,"Golgi,Extracellular",None provided
+ZN460_HUMAN,Nucleus,Nucleus
+HCD2_HUMAN,"Membrane,Cytoplasm","Membrane,Extracellular"
+LACC1_HUMAN,"Endoplasmic_Reticulum,Nucleus","Endoplasmic_Reticulum,Nucleus"
+G6PC2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+KCND1_HUMAN,Membrane,Membrane
+ARHGG_HUMAN,None provided,None provided
+TPC13_HUMAN,Cytoplasm,Cytoplasm
+ANXA5_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular"
+POLH_HUMAN,Nucleus,Nucleus
+KI18B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MAP9_HUMAN,Cytoplasm,Cytoplasm
+I11RA_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+SCLT1_HUMAN,None provided,None provided
+FZR1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+HDAC8_HUMAN,"Nucleus,Cytoplasm",None provided
+GRB7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+NEAS1_HUMAN,None provided,None provided
+GGT6_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+S52A3_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+PGTA_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TM271_HUMAN,Membrane,Membrane
+ISM2_HUMAN,Extracellular,Extracellular
+ATE1_HUMAN,"Nucleus,Cytoplasm",Nucleus
+JUND_HUMAN,Nucleus,Nucleus
+COQ8B_HUMAN,Membrane,Membrane
+O11H2_HUMAN,Membrane,Membrane
+DPP3_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+FACE2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CCN2_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+FIGLA_HUMAN,Nucleus,Nucleus
+DUS4L_HUMAN,None provided,None provided
+ST32B_HUMAN,None provided,None provided
+ZNF79_HUMAN,Nucleus,Nucleus
+HS90B_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+AACT_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+VA0D2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ENKUR_HUMAN,None provided,None provided
+KC1D_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+DMRT3_HUMAN,Nucleus,Nucleus
+RT29_HUMAN,Membrane,Membrane
+ASCC2_HUMAN,Nucleus,Nucleus
+P2R3C_HUMAN,Golgi,Golgi
+TRI39_HUMAN,"Nucleus,Cytoplasm",None provided
+ASB11_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+PRPS1_HUMAN,Cytoplasm,Cytoplasm
+ITCH_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+GGT5_HUMAN,Membrane,Membrane
+TPP1_HUMAN,"Golgi,Membrane,Extracellular",Membrane
+DMPK_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+S43A3_HUMAN,Membrane,Membrane
+MMRN2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+U119A_HUMAN,None provided,None provided
+NELL1_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PHC3_HUMAN,Nucleus,Nucleus
+S2547_HUMAN,Membrane,Membrane
+CEP97_HUMAN,None provided,None provided
+TBATA_HUMAN,None provided,None provided
+TAGL_HUMAN,Cytoplasm,Cytoplasm
+TX101_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+IDHP_HUMAN,Extracellular,Extracellular
+ARSA_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+LMX1A_HUMAN,Nucleus,Nucleus
+UBCP1_HUMAN,Nucleus,Nucleus
+FAAA_HUMAN,Extracellular,Extracellular
+SNX19_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MP2K3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ACER1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CC14B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+COG4_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CSRN1_HUMAN,Nucleus,Nucleus
+GDAP1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CCD93_HUMAN,Membrane,None provided
+FOH1B_HUMAN,"Membrane,Extracellular,Cytoplasm",None provided
+MCP_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PEBP4_HUMAN,Extracellular,Extracellular
+DPP2_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+C2C4C_HUMAN,None provided,None provided
+MBPHL_HUMAN,None provided,Extracellular
+TA2R7_HUMAN,Membrane,Membrane
+K1586_HUMAN,None provided,None provided
+PRR25_HUMAN,None provided,None provided
+BSCL2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+SNG1_HUMAN,Membrane,Membrane
+IDI1_HUMAN,Cytoplasm,Cytoplasm
+PCSK6_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+IGFR1_HUMAN,Membrane,Membrane
+TMX4_HUMAN,Membrane,Membrane
+VP9D1_HUMAN,None provided,None provided
+KC1AL_HUMAN,Nucleus,Nucleus
+KS6R_HUMAN,None provided,None provided
+TBB2B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CCD78_HUMAN,Cytoplasm,None provided
+SE1L1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CC175_HUMAN,None provided,None provided
+CAP7_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+MALD2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TAF5_HUMAN,Nucleus,Nucleus
+PSA2_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+OR1E1_HUMAN,Membrane,Membrane
+CTSR1_HUMAN,Membrane,Membrane
+GPAA1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Extracellular"
+HERP2_HUMAN,Membrane,Membrane
+RECQ1_HUMAN,"Membrane,Nucleus,Cytoplasm",Cytoplasm
+PKP1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+SARM1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+VSTM5_HUMAN,Membrane,Membrane
+PF21B_HUMAN,None provided,None provided
+PCDG4_HUMAN,Membrane,Membrane
+RN170_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+MTEF1_HUMAN,None provided,None provided
+RN225_HUMAN,Membrane,Membrane
+MARE1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+CTDP1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+APBB3_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+PRI1_HUMAN,Membrane,Membrane
+SHC4_HUMAN,Membrane,Nucleus
+SARG_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+5HT1E_HUMAN,Membrane,Membrane
+TLS1_HUMAN,Nucleus,Nucleus
+CTIP_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+O13H1_HUMAN,Membrane,Membrane
+SPESP_HUMAN,Membrane,Membrane
+ZN808_HUMAN,Nucleus,Nucleus
+TETN_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+AF1L1_HUMAN,None provided,None provided
+MSPD2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+EFHC1_HUMAN,None provided,Membrane
+TEAD3_HUMAN,None provided,None provided
+WASP_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+NFXL1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+MLF1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MMAD_HUMAN,Cytoplasm,Cytoplasm
+AKT2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+EMC10_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+SAMC_HUMAN,Membrane,Membrane
+YG024_HUMAN,None provided,None provided
+FIBA_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+ELK3_HUMAN,Nucleus,Nucleus
+MMP1_HUMAN,Extracellular,Extracellular
+SYAM_HUMAN,None provided,None provided
+OIT3_HUMAN,None provided,None provided
+CO9_HUMAN,"Membrane,Extracellular",Membrane
+ALS_HUMAN,Extracellular,Extracellular
+VPS16_HUMAN,Membrane,Membrane
+LFG3_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+CRY1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+WDR26_HUMAN,"Nucleus,Cytoplasm",Membrane
+PHAG1_HUMAN,Membrane,Membrane
+GFOD1_HUMAN,Extracellular,None provided
+GPR88_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ISLR_HUMAN,Extracellular,Extracellular
+LORI_HUMAN,Cytoplasm,None provided
+NR2C2_HUMAN,None provided,None provided
+ZN480_HUMAN,Nucleus,Nucleus
+PPIC_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular"
+CREB3_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+EXTL2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+RECQ5_HUMAN,"Nucleus,Cytoplasm",Nucleus
+C19L1_HUMAN,None provided,None provided
+NT5D3_HUMAN,None provided,None provided
+DOK1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+LSP1_HUMAN,"Membrane,Extracellular",None provided
+ZNF48_HUMAN,Nucleus,Nucleus
+PUS3_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+COQA1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+RL10_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus","Membrane,Endoplasmic_Reticulum,Nucleus"
+RRP36_HUMAN,None provided,None provided
+SNX15_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+EXOS5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CBPN_HUMAN,Extracellular,Extracellular
+GOLM1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+C3AR_HUMAN,Membrane,Membrane
+ZN724_HUMAN,Nucleus,Nucleus
+OXND1_HUMAN,None provided,None provided
+RGS1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+P63_HUMAN,"Nucleus,Cytoplasm",None provided
+K2C5_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+IF4B_HUMAN,None provided,None provided
+COQ7_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+DOK3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+O12D3_HUMAN,Membrane,Membrane
+VATH_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+TMM79_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+LRP5L_HUMAN,None provided,Extracellular
+ATP4B_HUMAN,Membrane,Membrane
+RPC3_HUMAN,None provided,None provided
+TKT_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum",None provided
+NR3L1_HUMAN,Membrane,Membrane
+I15RA_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+SAXO1_HUMAN,None provided,None provided
+ZN358_HUMAN,Nucleus,Nucleus
+PDE6C_HUMAN,Membrane,Membrane
+DNJC8_HUMAN,Nucleus,None provided
+SNX1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+ECT2L_HUMAN,None provided,Membrane
+KAP0_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+NNRE_HUMAN,Extracellular,Extracellular
+SIGL7_HUMAN,Membrane,Membrane
+STAP1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CMTD1_HUMAN,Membrane,Membrane
+ABLM2_HUMAN,Cytoplasm,"Nucleus,Cytoplasm"
+TLX3_HUMAN,Nucleus,Nucleus
+TNR21_HUMAN,Membrane,Membrane
+MKS3_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+FRS1L_HUMAN,Membrane,Membrane
+RABX5_HUMAN,Membrane,Membrane
+TMM82_HUMAN,Membrane,Membrane
+AT1B1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PADI6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MYF5_HUMAN,None provided,None provided
+CCM2L_HUMAN,None provided,None provided
+PIAS4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NPY6R_HUMAN,Membrane,Membrane
+CEA19_HUMAN,Membrane,Membrane
+ARP2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+CCD39_HUMAN,Extracellular,Extracellular
+RALYL_HUMAN,Nucleus,Nucleus
+RAE1E_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PRRC1_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+SO5A1_HUMAN,Membrane,Membrane
+YD019_HUMAN,None provided,None provided
+FMO2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+SIL1_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+TCO1_HUMAN,Extracellular,Extracellular
+RHPN1_HUMAN,None provided,None provided
+LDB1_HUMAN,Nucleus,Nucleus
+EED_HUMAN,Nucleus,None provided
+RIC8A_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+FGL2_HUMAN,Extracellular,Extracellular
+EZHIP_HUMAN,Nucleus,Nucleus
+ZFN2B_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+TRI63_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CD14_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+CHST2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+SPX3_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+CCNY_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ZMAT4_HUMAN,Nucleus,None provided
+VPP3_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+EBLN1_HUMAN,None provided,None provided
+AIRE_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GPR26_HUMAN,Membrane,Membrane
+GNAT3_HUMAN,Membrane,Membrane
+JMJD6_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ACER2_HUMAN,"Golgi,Membrane",Membrane
+ATX1L_HUMAN,Nucleus,Nucleus
+ELOV1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PRP4_HUMAN,Nucleus,Nucleus
+CAH9_HUMAN,Membrane,Membrane
+OR2C3_HUMAN,Membrane,Membrane
+SRSF6_HUMAN,None provided,None provided
+CPSF2_HUMAN,Membrane,Membrane
+SCYL1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+GP160_HUMAN,Membrane,Membrane
+RAB43_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+GLT12_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+NICN1_HUMAN,None provided,None provided
+WIPI4_HUMAN,Membrane,Membrane
+CDIN1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+VWCE_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+MET2B_HUMAN,Cytoplasm,Cytoplasm
+TMX2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+SPNS1_HUMAN,Membrane,Membrane
+MBRL_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Extracellular"
+F13B_HUMAN,Extracellular,Extracellular
+YIPF4_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+SYNPO_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+TNR8_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ZN773_HUMAN,Nucleus,Nucleus
+MUC20_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+S13A1_HUMAN,Membrane,Membrane
+CCD81_HUMAN,Cytoplasm,Cytoplasm
+SRGEF_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+F120S_HUMAN,None provided,None provided
+TAF11_HUMAN,"Golgi,Nucleus","Golgi,Nucleus"
+ZN418_HUMAN,Nucleus,Nucleus
+HMMR_HUMAN,Membrane,Membrane
+CMA1A_HUMAN,Cytoplasm,None provided
+NMT1_HUMAN,"Membrane,Cytoplasm",None provided
+TTC34_HUMAN,None provided,None provided
+CCNI2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TRI27_HUMAN,"Membrane,Nucleus,Cytoplasm",Membrane
+GXLT2_HUMAN,Membrane,Membrane
+T2EB_HUMAN,None provided,None provided
+SETD4_HUMAN,Nucleus,Nucleus
+WWOX_HUMAN,"Golgi,Nucleus,Cytoplasm",Membrane
+PEPD_HUMAN,Extracellular,Extracellular
+LHX5_HUMAN,Nucleus,Nucleus
+CERT_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+EFR3B_HUMAN,Membrane,Membrane
+CLD17_HUMAN,Membrane,Membrane
+MAMC2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+MIPO1_HUMAN,Nucleus,Nucleus
+KCA10_HUMAN,Membrane,Membrane
+TACD2_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+AGRE2_HUMAN,Membrane,Membrane
+FOXG1_HUMAN,Nucleus,Nucleus
+ZN575_HUMAN,Nucleus,Nucleus
+CSKMT_HUMAN,None provided,None provided
+TTC23_HUMAN,None provided,None provided
+SFRP1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+MMP27_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+RUVB2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+STXB6_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CNGA3_HUMAN,Membrane,Membrane
+LYN_HUMAN,"Golgi,Membrane,Extracellular,Nucleus,Cytoplasm","Golgi,Membrane,Extracellular,Nucleus,Cytoplasm"
+RORG_HUMAN,Nucleus,Nucleus
+PECR_HUMAN,Membrane,Membrane
+ZN708_HUMAN,Nucleus,Nucleus
+ERCC1_HUMAN,Cytoplasm,Cytoplasm
+MET16_HUMAN,"Nucleus,Cytoplasm",None provided
+SCTM1_HUMAN,"Golgi,Membrane,Extracellular",Membrane
+CP26A_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CTF1_HUMAN,Extracellular,Extracellular
+ACER3_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+SCD_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ZNF28_HUMAN,Nucleus,Nucleus
+S35D1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+SRSF5_HUMAN,None provided,None provided
+MCHR1_HUMAN,Membrane,Membrane
+PK3C3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TM270_HUMAN,Membrane,Membrane
+TGIF2_HUMAN,Nucleus,Nucleus
+GGA2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+OR2Z1_HUMAN,Membrane,Membrane
+PCSK9_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+GBRG1_HUMAN,Membrane,Membrane
+UBP18_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+HRH4_HUMAN,Membrane,Membrane
+PD2R2_HUMAN,Membrane,Membrane
+SUV91_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+TLK1_HUMAN,Nucleus,Nucleus
+SPNDC_HUMAN,Nucleus,Nucleus
+CBPB2_HUMAN,Extracellular,Extracellular
+DUSTY_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+T4S4_HUMAN,Membrane,Membrane
+TRM1L_HUMAN,Nucleus,Nucleus
+ADAD2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ARMC1_HUMAN,Membrane,None provided
+SEPT2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+CD11B_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MARK3_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ENC1_HUMAN,"Nucleus,Cytoplasm",None provided
+OSB11_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+NKX11_HUMAN,Nucleus,Nucleus
+GTF2I_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ZN276_HUMAN,Nucleus,Nucleus
+SMRD3_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+OR5BC_HUMAN,Membrane,Membrane
+KCTD7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+LYAM2_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular"
+NIF3L_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SEMG1_HUMAN,"Extracellular,Nucleus",Nucleus
+RM45_HUMAN,Membrane,Membrane
+VNRL4_HUMAN,Membrane,"Membrane,Endoplasmic_Reticulum"
+A3LT2_HUMAN,"Golgi,Membrane",Membrane
+FA12_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+PTX3_HUMAN,Extracellular,Extracellular
+AMGO1_HUMAN,Membrane,Membrane
+BN3D2_HUMAN,Cytoplasm,Cytoplasm
+RAB34_HUMAN,"Golgi,Membrane,Extracellular,Cytoplasm","Golgi,Membrane,Extracellular,Cytoplasm"
+CAN2_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+VANG1_HUMAN,Membrane,Membrane
+HIF1N_HUMAN,Cytoplasm,Cytoplasm
+O56B1_HUMAN,Membrane,Membrane
+IF5_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ODAD3_HUMAN,Extracellular,Membrane
+NCKX5_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CIA30_HUMAN,Membrane,None provided
+DHSO_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+WN10A_HUMAN,Extracellular,Extracellular
+S22AB_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ITIH5_HUMAN,Extracellular,Membrane
+RL3_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+CH3L2_HUMAN,Extracellular,"Membrane,Extracellular"
+TOR3A_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+TEC_HUMAN,Membrane,None provided
+ALKB3_HUMAN,Nucleus,Nucleus
+GLYG_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+TBC3A_HUMAN,Membrane,Membrane
+TSN16_HUMAN,Membrane,Membrane
+NELFE_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+CSCL2_HUMAN,Membrane,Membrane
+UBXN8_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus",None provided
+HXC12_HUMAN,Nucleus,Nucleus
+S2552_HUMAN,Membrane,Membrane
+TMDD1_HUMAN,Membrane,None provided
+GCR_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+MOGT1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+TNR5_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PDGFA_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+PDYN_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+S2535_HUMAN,Membrane,Membrane
+HTAI2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+GP183_HUMAN,Membrane,Membrane
+GPR19_HUMAN,Membrane,Membrane
+PARI_HUMAN,Cytoplasm,None provided
+LDLR_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MP2K7_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TMG1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZN326_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+T150B_HUMAN,Membrane,Membrane
+TIGIT_HUMAN,Membrane,Membrane
+DAPP1_HUMAN,Membrane,Membrane
+LRC27_HUMAN,None provided,None provided
+CLCA3_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+QNG1_HUMAN,None provided,Membrane
+WDR93_HUMAN,None provided,None provided
+DAZ2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GLT13_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+ETV4_HUMAN,Nucleus,Nucleus
+PRS48_HUMAN,Extracellular,Extracellular
+OR1F2_HUMAN,Membrane,Membrane
+SMS2_HUMAN,"Golgi,Membrane","Membrane,Endoplasmic_Reticulum"
+TF2H1_HUMAN,None provided,None provided
+DNJB7_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CMA1D_HUMAN,Cytoplasm,Cytoplasm
+ZN699_HUMAN,Nucleus,Nucleus
+ENVT1_HUMAN,Membrane,Membrane
+RHG27_HUMAN,"Membrane,Cytoplasm",Membrane
+LHPL6_HUMAN,Membrane,Membrane
+GNL1_HUMAN,"Extracellular,Nucleus",None provided
+CC148_HUMAN,None provided,None provided
+CENPI_HUMAN,Nucleus,Membrane
+TYRO_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+TWST1_HUMAN,Nucleus,Nucleus
+TDIF2_HUMAN,None provided,None provided
+NOE3_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+NF2L3_HUMAN,Nucleus,Nucleus
+BRF2_HUMAN,Nucleus,Nucleus
+DDX59_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CIZ1_HUMAN,"Membrane,Nucleus",Nucleus
+ASF1A_HUMAN,Nucleus,Nucleus
+SC5A1_HUMAN,"Membrane,Extracellular,Cytoplasm",Membrane
+MTA1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+KBTBC_HUMAN,None provided,None provided
+TRXR1_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+TCAM2_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+ZN157_HUMAN,Nucleus,Nucleus
+HXA1_HUMAN,Nucleus,Nucleus
+NXNL1_HUMAN,None provided,"Membrane,Cytoplasm"
+GTDC1_HUMAN,None provided,None provided
+ZNRF2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TBA1A_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+SIG16_HUMAN,Membrane,Membrane
+RAB8B_HUMAN,"Golgi,Membrane,Extracellular,Cytoplasm","Golgi,Membrane,Extracellular,Cytoplasm"
+RFOX2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+FGF6_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+DDX54_HUMAN,"Golgi,Membrane,Nucleus","Golgi,Membrane,Nucleus"
+TTLL3_HUMAN,None provided,None provided
+KLF17_HUMAN,Nucleus,Nucleus
+NCK2_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular"
+KCJ11_HUMAN,Membrane,Membrane
+BMP10_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+FA7_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum",Extracellular
+EPS15_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TM182_HUMAN,Membrane,Membrane
+S14L5_HUMAN,Cytoplasm,Cytoplasm
+CDKL1_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+O14J1_HUMAN,Membrane,Membrane
+CAVN2_HUMAN,"Membrane,Cytoplasm",Nucleus
+GEN_HUMAN,None provided,None provided
+PLK4_HUMAN,None provided,None provided
+LMOD2_HUMAN,None provided,None provided
+ARHG2_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+TRA2B_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+HAUS2_HUMAN,None provided,None provided
+S36A4_HUMAN,Membrane,Membrane
+STEA4_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+MAMD1_HUMAN,Golgi,Nucleus
+MASTR_HUMAN,Nucleus,Nucleus
+CHSS2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+HM13_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum"
+SFTA1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+CH3L1_HUMAN,"Extracellular,Endoplasmic_Reticulum,Cytoplasm","Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+GASP3_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+DDX1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+CPSF7_HUMAN,"Membrane,Nucleus,Cytoplasm",Nucleus
+EWS_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+RSPO2_HUMAN,Extracellular,Extracellular
+TS1R1_HUMAN,Membrane,Membrane
+ZN749_HUMAN,Nucleus,Nucleus
+CFA77_HUMAN,None provided,None provided
+PR15A_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+QCR1_HUMAN,Membrane,Membrane
+OTOP1_HUMAN,Membrane,Membrane
+ANR44_HUMAN,None provided,None provided
+DAA10_HUMAN,None provided,Membrane
+GNDS_HUMAN,"Membrane,Nucleus",Membrane
+RLIG1_HUMAN,None provided,None provided
+NTCP5_HUMAN,Membrane,Membrane
+PENK_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum",None provided
+LUZP2_HUMAN,Extracellular,Extracellular
+BORG2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+AB12B_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+GPC4_HUMAN,"Golgi,Membrane,Extracellular,Nucleus","Golgi,Membrane,Extracellular,Nucleus"
+SNX8_HUMAN,Membrane,Membrane
+TTC8_HUMAN,Membrane,Membrane
+RAD52_HUMAN,Nucleus,Nucleus
+ASB13_HUMAN,None provided,None provided
+TMM51_HUMAN,Membrane,Membrane
+WFDC3_HUMAN,Extracellular,Extracellular
+XBP1_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm",None provided
+KCD18_HUMAN,None provided,None provided
+TAGAP_HUMAN,None provided,None provided
+KLK12_HUMAN,Extracellular,Extracellular
+ZBT45_HUMAN,None provided,None provided
+ERP29_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+NT5D1_HUMAN,None provided,None provided
+PCGF1_HUMAN,Nucleus,Nucleus
+PALMD_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TIGD1_HUMAN,Nucleus,Membrane
+MTG16_HUMAN,"Golgi,Membrane,Nucleus","Golgi,Membrane,Nucleus"
+MLXIP_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+MTD2L_HUMAN,Membrane,None provided
+TM127_HUMAN,"Membrane,Cytoplasm",None provided
+RMD3_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+RBMX2_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus","Membrane,Endoplasmic_Reticulum,Nucleus"
+ZMYM5_HUMAN,Nucleus,Nucleus
+TMPPE_HUMAN,Membrane,Membrane
+CSN7A_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GOGA1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+AOAH_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+GDPP1_HUMAN,Cytoplasm,Membrane
+DDX4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NAGPA_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CSN6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ACTA_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+BEST3_HUMAN,Membrane,Membrane
+P4HA1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+LPIN3_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus",Membrane
+EP15R_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+O10A3_HUMAN,Membrane,Membrane
+KAISO_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+COQ2_HUMAN,Membrane,Membrane
+O52B2_HUMAN,Membrane,Membrane
+ERGI3_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+SH24B_HUMAN,Cytoplasm,Cytoplasm
+YMEL1_HUMAN,Membrane,Membrane
+CAH6_HUMAN,Extracellular,Membrane
+GGA3_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+TERB2_HUMAN,Membrane,Membrane
+LHPP_HUMAN,Nucleus,Nucleus
+ZN560_HUMAN,Nucleus,Nucleus
+CKLF4_HUMAN,Membrane,Membrane
+FBXW9_HUMAN,None provided,None provided
+POK6_HUMAN,None provided,None provided
+DDB2_HUMAN,Nucleus,Nucleus
+GRP4_HUMAN,Membrane,None provided
+LRIT2_HUMAN,Membrane,Membrane
+COQ3_HUMAN,Membrane,Membrane
+YJEN3_HUMAN,None provided,None provided
+CRIS3_HUMAN,Extracellular,Extracellular
+GPR61_HUMAN,Membrane,Membrane
+CTSR3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+MYSM1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CC107_HUMAN,Membrane,Membrane
+CP100_HUMAN,None provided,None provided
+KCNN3_HUMAN,"Membrane,Cytoplasm",Nucleus
+PXYP1_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CAZA2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+STK38_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+FXL21_HUMAN,Nucleus,Nucleus
+NPT2C_HUMAN,Membrane,Membrane
+PON3_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+DHDH_HUMAN,None provided,None provided
+RBM38_HUMAN,Nucleus,Nucleus
+REPI1_HUMAN,None provided,None provided
+G3ST2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+SFRP3_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+SEM3D_HUMAN,Extracellular,Extracellular
+P5I13_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TOIP2_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+PITX1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+WDR24_HUMAN,Membrane,Membrane
+AMFR_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+PRELP_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+ETFB_HUMAN,None provided,None provided
+SLD5_HUMAN,"Nucleus,Cytoplasm",None provided
+ZN665_HUMAN,Nucleus,Nucleus
+ZP2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+MUC13_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+HUS1B_HUMAN,None provided,None provided
+SUSD1_HUMAN,Membrane,Membrane
+SUMF2_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+SNG3_HUMAN,Membrane,Membrane
+IRF9_HUMAN,"Nucleus,Cytoplasm",None provided
+PRD11_HUMAN,Nucleus,Nucleus
+PAR1_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+UBP13_HUMAN,Nucleus,Membrane
+CABYR_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+ZN136_HUMAN,Nucleus,Nucleus
+CHTOP_HUMAN,Nucleus,Nucleus
+DDX50_HUMAN,Membrane,Membrane
+RAD21_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+ZBT16_HUMAN,Nucleus,Nucleus
+DMP46_HUMAN,None provided,Extracellular
+PR40A_HUMAN,Membrane,Membrane
+CBR3_HUMAN,Extracellular,None provided
+DGLB_HUMAN,Membrane,Membrane
+RT35_HUMAN,Membrane,None provided
+ANGT_HUMAN,Extracellular,Extracellular
+TPOR_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+NUP62_HUMAN,"Membrane,Cytoplasm",Membrane
+RAB8A_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+IL1B_HUMAN,Extracellular,Extracellular
+PHB2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+T161B_HUMAN,Membrane,Membrane
+LRP8_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+OR6M1_HUMAN,Membrane,Membrane
+AGAP4_HUMAN,None provided,None provided
+SH2B3_HUMAN,Membrane,Membrane
+UFD1_HUMAN,Nucleus,Nucleus
+IL18R_HUMAN,Membrane,Membrane
+ARHG9_HUMAN,None provided,None provided
+POLK_HUMAN,Nucleus,Nucleus
+RBM12_HUMAN,None provided,None provided
+RHG10_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MIC60_HUMAN,Membrane,Membrane
+EEIG1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+HMOX2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+BCAS4_HUMAN,Cytoplasm,None provided
+BBS4_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+SCNND_HUMAN,Membrane,Membrane
+PIGA_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+HAVR1_HUMAN,Membrane,Membrane
+SLN14_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+MKRN2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PLS5_HUMAN,Membrane,Membrane
+GFY_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+VEGFA_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ARMC3_HUMAN,Extracellular,Extracellular
+O10S1_HUMAN,Membrane,Membrane
+CLDN1_HUMAN,Membrane,Membrane
+ZBT7A_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+COLI_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+PEX14_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+TRI49_HUMAN,Cytoplasm,Cytoplasm
+ZN133_HUMAN,Nucleus,Nucleus
+GOG6A_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+HOOK3_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+SOAT_HUMAN,Membrane,Membrane
+MCUR1_HUMAN,Membrane,Membrane
+VAC14_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+IBP5_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+MAS1L_HUMAN,Membrane,Membrane
+VTCN1_HUMAN,Membrane,Membrane
+S2539_HUMAN,Membrane,Membrane
+UBXN1_HUMAN,"Endoplasmic_Reticulum,Nucleus,Cytoplasm",None provided
+PAR16_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+DPP10_HUMAN,Membrane,Membrane
+EBP_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum"
+F10A1_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+XYLT2_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+CJ067_HUMAN,None provided,None provided
+M4K5_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+RHIT_HUMAN,Nucleus,Nucleus
+ITB1_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ESCO1_HUMAN,Nucleus,Nucleus
+RAB3D_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular"
+PPM1G_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+CDC23_HUMAN,None provided,None provided
+CCNO_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+RPR1A_HUMAN,Nucleus,Nucleus
+LT4R2_HUMAN,Membrane,Membrane
+TWSG1_HUMAN,Extracellular,Extracellular
+RAN_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm","Membrane,Extracellular,Nucleus,Cytoplasm"
+LUZP4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NUAK2_HUMAN,None provided,"Nucleus,Cytoplasm"
+CD180_HUMAN,"Membrane,Extracellular",None provided
+DRC2_HUMAN,None provided,None provided
+PINX1_HUMAN,None provided,None provided
+IKIP_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+NOL9_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+S19A2_HUMAN,Membrane,Membrane
+GPDM_HUMAN,Membrane,Membrane
+SCN4B_HUMAN,Membrane,Membrane
+H90B4_HUMAN,"Membrane,Cytoplasm",Membrane
+ATL2_HUMAN,Extracellular,Extracellular
+CXCR1_HUMAN,Membrane,Membrane
+S38A3_HUMAN,Membrane,Membrane
+LRC8A_HUMAN,Membrane,Membrane
+RPGF3_HUMAN,"Membrane,Extracellular",Membrane
+YJU2B_HUMAN,None provided,None provided
+SIGIR_HUMAN,Membrane,Membrane
+DEAF1_HUMAN,"Extracellular,Nucleus,Cytoplasm",None provided
+CBPQ_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+PRA12_HUMAN,Cytoplasm,Cytoplasm
+RSAD1_HUMAN,Cytoplasm,Cytoplasm
+MED29_HUMAN,Nucleus,Nucleus
+T2R42_HUMAN,Membrane,Membrane
+GALT9_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+SYCP3_HUMAN,Nucleus,None provided
+PNMA2_HUMAN,None provided,None provided
+RBM11_HUMAN,Nucleus,Nucleus
+EOGT_HUMAN,Endoplasmic_Reticulum,Membrane
+STX18_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+GDPD3_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+UIMC1_HUMAN,Nucleus,Nucleus
+NSUN3_HUMAN,None provided,None provided
+NAA40_HUMAN,Nucleus,Nucleus
+CCER1_HUMAN,None provided,None provided
+MXI1_HUMAN,Nucleus,Nucleus
+SUCR1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+RMND1_HUMAN,None provided,None provided
+DNJA4_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+GDE1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+S22AI_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+RFTN1_HUMAN,"Membrane,Extracellular,Cytoplasm",None provided
+CELA1_HUMAN,Extracellular,"Membrane,Extracellular"
+CP2U1_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+SKIL_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CXX1_HUMAN,Membrane,Membrane
+THSD1_HUMAN,"Membrane,Extracellular",Membrane
+ECHB_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PPAL_HUMAN,"Membrane,Extracellular",Membrane
+CD80_HUMAN,Membrane,Membrane
+RUNX1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+RLA0_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+MBLC1_HUMAN,"Nucleus,Cytoplasm",Extracellular
+UCKL1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KCNC3_HUMAN,Membrane,Membrane
+DAW1_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+MD2L1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CADM2_HUMAN,Membrane,Membrane
+PPID_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ANR60_HUMAN,None provided,None provided
+DOHH_HUMAN,None provided,None provided
+FRDA_HUMAN,None provided,None provided
+ENPP3_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ECM1_HUMAN,Extracellular,Extracellular
+RAB2B_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+PA1B2_HUMAN,"Membrane,Extracellular,Cytoplasm",None provided
+FANCL_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+PLIN2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus",None provided
+SGTA_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+LSG1_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+POGK_HUMAN,Nucleus,Nucleus
+GIPR_HUMAN,Membrane,Membrane
+CHSTA_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MTHR_HUMAN,None provided,None provided
+SIM1_HUMAN,Nucleus,Nucleus
+ALKB8_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+R3HD4_HUMAN,Nucleus,Nucleus
+NADE_HUMAN,Cytoplasm,Cytoplasm
+IF4H_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+STAU1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+N4BP3_HUMAN,Cytoplasm,Cytoplasm
+FUT8_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+ME3L1_HUMAN,Nucleus,None provided
+DNJA1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+PBMU2_HUMAN,Extracellular,"Membrane,Extracellular"
+ZUP1_HUMAN,None provided,Nucleus
+TMM70_HUMAN,Membrane,Membrane
+CPNE7_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm",Membrane
+STRN_HUMAN,Membrane,Membrane
+NMBR_HUMAN,Membrane,Membrane
+MA7D1_HUMAN,Cytoplasm,Cytoplasm
+VTDB_HUMAN,"Extracellular,Cytoplasm",Cytoplasm
+AR26L_HUMAN,None provided,None provided
+CMI2C_HUMAN,Nucleus,None provided
+ZN275_HUMAN,Nucleus,Nucleus
+MORC4_HUMAN,Nucleus,None provided
+MBTP2_HUMAN,"Golgi,Membrane,Cytoplasm",Membrane
+SYBU_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+GALE_HUMAN,None provided,None provided
+HUTU_HUMAN,None provided,None provided
+G45IP_HUMAN,Membrane,Membrane
+TGM3L_HUMAN,Cytoplasm,Cytoplasm
+CDYL_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CWC25_HUMAN,Nucleus,Nucleus
+SDA1_HUMAN,None provided,None provided
+CLCA_HUMAN,"Golgi,Membrane,Cytoplasm",Nucleus
+PSMD6_HUMAN,Extracellular,Extracellular
+F118B_HUMAN,None provided,None provided
+GRM2A_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+EPOR_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZSC31_HUMAN,Nucleus,Nucleus
+CHIC1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CCD97_HUMAN,Nucleus,Nucleus
+CHSTC_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+CHSTE_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+IBP7_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+TBK1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+G6PT3_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+FBX17_HUMAN,Cytoplasm,Cytoplasm
+NOL7_HUMAN,None provided,None provided
+NCF1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CP2F1_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+CPSF5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+LIRB4_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+FNBP1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+APTX_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+RIC3_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+PEF1_HUMAN,"Extracellular,Endoplasmic_Reticulum,Cytoplasm","Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+MPP7_HUMAN,Membrane,Membrane
+ELOV4_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ANX13_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ASAH2_HUMAN,"Golgi,Membrane,Extracellular",Membrane
+ERO1B_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+GCNT7_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+FGF5_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+FLT3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+O10A7_HUMAN,Membrane,Membrane
+DCA17_HUMAN,Membrane,Membrane
+ICAM1_HUMAN,"Membrane,Extracellular",Membrane
+RNZ2_HUMAN,Nucleus,Nucleus
+DGKG_HUMAN,Membrane,Membrane
+C2C2L_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PTN11_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+KCNB1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+NMUR2_HUMAN,Membrane,Membrane
+SP8_HUMAN,Nucleus,Nucleus
+BRME1_HUMAN,None provided,None provided
+TA2R8_HUMAN,Membrane,Membrane
+SAMD8_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+AMER2_HUMAN,Membrane,Membrane
+IGBP1_HUMAN,Cytoplasm,Cytoplasm
+CLRN2_HUMAN,Membrane,Membrane
+KAD4_HUMAN,Cytoplasm,None provided
+P2RY8_HUMAN,Membrane,Membrane
+O56A4_HUMAN,Membrane,Membrane
+O14CZ_HUMAN,Membrane,Membrane
+GDF7_HUMAN,Extracellular,None provided
+TAF3_HUMAN,"Membrane,Nucleus",Nucleus
+ZFP3_HUMAN,Nucleus,Nucleus
+MMP17_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+TOLIP_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ERCC3_HUMAN,Nucleus,Nucleus
+CXXC5_HUMAN,Nucleus,None provided
+SERB_HUMAN,Cytoplasm,Cytoplasm
+OPN3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TS1R2_HUMAN,Membrane,Membrane
+O51T1_HUMAN,Membrane,Membrane
+LAT3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CTIF_HUMAN,Cytoplasm,Cytoplasm
+MYL10_HUMAN,Cytoplasm,Cytoplasm
+CAP2_HUMAN,"Membrane,Cytoplasm",None provided
+DDX10_HUMAN,Nucleus,None provided
+CDKL5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+DSC2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+RT15_HUMAN,Membrane,Membrane
+TRI45_HUMAN,Cytoplasm,Cytoplasm
+UBFD1_HUMAN,None provided,None provided
+GP108_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MARH5_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+O10J1_HUMAN,Membrane,Membrane
+PODN_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+CERS2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+T150A_HUMAN,Membrane,Membrane
+IGS21_HUMAN,Membrane,Membrane
+NK2R_HUMAN,Membrane,Membrane
+PROC_HUMAN,"Golgi,Extracellular,Endoplasmic_Reticulum",None provided
+SLAP1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+VP37C_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+FCGRN_HUMAN,"Membrane,Extracellular",Membrane
+2A5G_HUMAN,"Golgi,Nucleus",Membrane
+KLRG2_HUMAN,Membrane,None provided
+ZN224_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+GPR15_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+SNTG1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+IDH3B_HUMAN,Nucleus,Nucleus
+GPC1_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+ANM9_HUMAN,Cytoplasm,Membrane
+BBS2_HUMAN,Membrane,Membrane
+TEFM_HUMAN,None provided,None provided
+PTN1_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+HLAB_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+HPS1_HUMAN,Cytoplasm,Cytoplasm
+GRP1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+HPS4_HUMAN,"Membrane,Cytoplasm",None provided
+TM198_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+GP152_HUMAN,Membrane,Membrane
+PDXK_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+HEXA_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PAK6_HUMAN,Cytoplasm,Cytoplasm
+NUBP2_HUMAN,Nucleus,Nucleus
+SYEM_HUMAN,None provided,None provided
+BMP6_HUMAN,Extracellular,Extracellular
+ACBD4_HUMAN,Cytoplasm,Cytoplasm
+DHX58_HUMAN,Cytoplasm,Cytoplasm
+UBAC2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+EXOC3_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+TBX19_HUMAN,Nucleus,Nucleus
+LPAR2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+NALP7_HUMAN,Cytoplasm,Cytoplasm
+RUAS1_HUMAN,None provided,None provided
+DYM_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+SIR4_HUMAN,Membrane,Membrane
+HGH1_HUMAN,None provided,None provided
+FA9_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+F110D_HUMAN,None provided,None provided
+VNN1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+FUCO_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+ZN444_HUMAN,Nucleus,Nucleus
+S2538_HUMAN,Membrane,Membrane
+ZN395_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TCEA2_HUMAN,Nucleus,Nucleus
+ARSK_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+TRIM2_HUMAN,Cytoplasm,Cytoplasm
+IKBL1_HUMAN,Nucleus,Nucleus
+PCNA_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+AL9A1_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+LGR5_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+WDR82_HUMAN,None provided,None provided
+CRNN_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Nucleus"
+FEV_HUMAN,Nucleus,Nucleus
+CLN5_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+SYT6_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+TOB1_HUMAN,"Nucleus,Cytoplasm",None provided
+HS3S6_HUMAN,"Golgi,Membrane",Membrane
+ENTD1_HUMAN,Membrane,Membrane
+ADEC1_HUMAN,Extracellular,Extracellular
+ZN552_HUMAN,Nucleus,Nucleus
+PICAL_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+CHM2A_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+AMPD3_HUMAN,Extracellular,Extracellular
+ATF6B_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus"
+TOX2_HUMAN,Nucleus,Nucleus
+PDE1B_HUMAN,None provided,None provided
+UBS3A_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+OR1L1_HUMAN,Membrane,Membrane
+EXTL1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+R144A_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+SRRM4_HUMAN,Nucleus,Nucleus
+FIP1_HUMAN,None provided,None provided
+F16P2_HUMAN,"Membrane,Extracellular,Nucleus,Cytoplasm",None provided
+F228A_HUMAN,None provided,None provided
+RN215_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MT21D_HUMAN,Cytoplasm,None provided
+GPBL1_HUMAN,Nucleus,Nucleus
+DEMA_HUMAN,"Membrane,Cytoplasm",Nucleus
+THIK_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+GLSK_HUMAN,None provided,None provided
+TCRGL_HUMAN,Nucleus,Nucleus
+FMT_HUMAN,None provided,None provided
+IFFO1_HUMAN,Membrane,Membrane
+OR7D2_HUMAN,Membrane,Membrane
+DCAF8_HUMAN,"Nucleus,Cytoplasm",Nucleus
+PLPP5_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+EZRI_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+RGPS1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CGAS_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+F227B_HUMAN,None provided,None provided
+SIA7D_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+IMA4_HUMAN,Nucleus,Nucleus
+SCP2_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+GBRG3_HUMAN,Membrane,Membrane
+SPSB3_HUMAN,None provided,None provided
+PAQR8_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+NHRF3_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+NDRG3_HUMAN,"Extracellular,Cytoplasm",None provided
+CH033_HUMAN,None provided,None provided
+PLPL9_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ARHG4_HUMAN,Membrane,Membrane
+ACHB3_HUMAN,Membrane,Membrane
+CP2J2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+YU008_HUMAN,None provided,None provided
+KITM_HUMAN,Cytoplasm,Membrane
+SYNE3_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+DEPD4_HUMAN,None provided,None provided
+ELAV1_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ZN569_HUMAN,Nucleus,Nucleus
+ARSJ_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+STX11_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+MARC1_HUMAN,Membrane,Membrane
+WWTR1_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+GABR2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ODAD4_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+RASM_HUMAN,Membrane,Membrane
+SOAT1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+BRSK1_HUMAN,"Nucleus,Cytoplasm",None provided
+ZFP57_HUMAN,Nucleus,Nucleus
+UBP33_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+MMP24_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+GFRA2_HUMAN,Membrane,Membrane
+GPR34_HUMAN,Membrane,Membrane
+G6B_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+TRI10_HUMAN,Cytoplasm,Cytoplasm
+CC134_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus","Membrane,Extracellular,Endoplasmic_Reticulum,Nucleus"
+OR2J2_HUMAN,Membrane,Membrane
+GPC5_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+ISM1_HUMAN,Extracellular,Extracellular
+CP1A2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+PEX26_HUMAN,Membrane,None provided
+REEP4_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+ZN530_HUMAN,Nucleus,Nucleus
+PRDM8_HUMAN,Nucleus,Nucleus
+TTL11_HUMAN,None provided,None provided
+DCAF6_HUMAN,"Nucleus,Cytoplasm","Membrane,Cytoplasm"
+3HAO_HUMAN,Cytoplasm,Cytoplasm
+HOGA1_HUMAN,None provided,None provided
+EPHB1_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+ZN792_HUMAN,Nucleus,Nucleus
+PDK1L_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TAAR1_HUMAN,Membrane,Membrane
+DPOLB_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PDPK1_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+GAL3B_HUMAN,None provided,None provided
+TRI77_HUMAN,Cytoplasm,Cytoplasm
+PCGF3_HUMAN,Nucleus,Nucleus
+TEKT2_HUMAN,Nucleus,Nucleus
+S19A1_HUMAN,Membrane,Membrane
+CXA3_HUMAN,Membrane,Membrane
+CB27B_HUMAN,None provided,None provided
+CP7B1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+VPS72_HUMAN,Nucleus,Nucleus
+SCUB2_HUMAN,Extracellular,Extracellular
+KMCP1_HUMAN,Membrane,Membrane
+PINK1_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ACHE_HUMAN,Membrane,Membrane
+CK096_HUMAN,None provided,None provided
+SH3G2_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+HNRC1_HUMAN,Nucleus,Nucleus
+OR4D6_HUMAN,Membrane,Membrane
+BEND7_HUMAN,Extracellular,Extracellular
+APCDL_HUMAN,Membrane,Membrane
+NRIP2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+I17RB_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CEBPE_HUMAN,"Membrane,Nucleus",Nucleus
+LSS_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+THIM_HUMAN,None provided,None provided
+CCD63_HUMAN,None provided,None provided
+MYOD1_HUMAN,Nucleus,Nucleus
+NAT8B_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+RSLBA_HUMAN,None provided,None provided
+SEMG2_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+EFC4B_HUMAN,"Golgi,Membrane,Extracellular,Cytoplasm",None provided
+ILF2_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+WWAS2_HUMAN,None provided,None provided
+STAT1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ZN365_HUMAN,Cytoplasm,Cytoplasm
+NQO1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+COL11_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+KLH18_HUMAN,None provided,None provided
+GHITM_HUMAN,"Membrane,Extracellular",Membrane
+LRC63_HUMAN,None provided,None provided
+MORC3_HUMAN,Nucleus,Nucleus
+SGCE_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+BGAT_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+TPM3_HUMAN,Extracellular,Extracellular
+CNNM4_HUMAN,Membrane,Membrane
+KLHL7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+IFIX_HUMAN,None provided,None provided
+WDR36_HUMAN,None provided,None provided
+GRK7_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+LMBD1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CDAC1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+S35B3_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+RFA1_HUMAN,Nucleus,Nucleus
+ANRA2_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+ASPDH_HUMAN,None provided,None provided
+CC112_HUMAN,Cytoplasm,Cytoplasm
+RSAD2_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum","Golgi,Membrane,Endoplasmic_Reticulum"
+RB8NL_HUMAN,Extracellular,Extracellular
+HDX_HUMAN,Nucleus,Nucleus
+NTRI_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+B3GN2_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+OSR1_HUMAN,Nucleus,Nucleus
+SMAD3_HUMAN,"Membrane,Nucleus,Cytoplasm",Membrane
+SMG9_HUMAN,None provided,None provided
+GAB4_HUMAN,Cytoplasm,Cytoplasm
+ZN652_HUMAN,Nucleus,Nucleus
+P4R3A_HUMAN,None provided,None provided
+PDK3_HUMAN,None provided,None provided
+ADAT1_HUMAN,None provided,None provided
+GT252_HUMAN,Endoplasmic_Reticulum,Endoplasmic_Reticulum
+SNAG_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+KLK13_HUMAN,"Extracellular,Cytoplasm",Extracellular
+ARSD_HUMAN,Endoplasmic_Reticulum,Membrane
+RBY1F_HUMAN,None provided,Nucleus
+LRRN1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+S26A2_HUMAN,"Membrane,Extracellular",Membrane
+M4K3_HUMAN,Cytoplasm,Cytoplasm
+SARAF_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ZN598_HUMAN,None provided,None provided
+DFFA_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+SYF1_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+NT5D4_HUMAN,None provided,None provided
+NUMBL_HUMAN,Cytoplasm,None provided
+DDAH1_HUMAN,Extracellular,Extracellular
+RALY_HUMAN,Nucleus,Nucleus
+GLYR1_HUMAN,None provided,None provided
+GMPPA_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+C1T9A_HUMAN,Extracellular,Extracellular
+GRASP_HUMAN,"Membrane,Cytoplasm",Nucleus
+STML2_HUMAN,Membrane,Membrane
+CLC14_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+NPIB7_HUMAN,Extracellular,Extracellular
+ZN264_HUMAN,Nucleus,Nucleus
+I4E1B_HUMAN,None provided,None provided
+CELF2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+CC166_HUMAN,None provided,None provided
+TEKT5_HUMAN,Nucleus,Nucleus
+FGF2_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+TMCC1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+AUNIP_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+IGHG1_HUMAN,"Membrane,Extracellular",Membrane
+CP46A_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+GP148_HUMAN,Membrane,Membrane
+TSSC4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+FGD2_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+NDUS3_HUMAN,Membrane,Membrane
+PK1IP_HUMAN,None provided,None provided
+PATL2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SEM4B_HUMAN,Membrane,Membrane
+ZNF3_HUMAN,Nucleus,Nucleus
+FHR5_HUMAN,Extracellular,Extracellular
+ATD3A_HUMAN,Membrane,Membrane
+C2C4B_HUMAN,Nucleus,Nucleus
+FCRLB_HUMAN,"Endoplasmic_Reticulum,Cytoplasm","Endoplasmic_Reticulum,Cytoplasm"
+PDZD4_HUMAN,None provided,None provided
+SPEGN_HUMAN,None provided,None provided
+CALX_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+CMKMT_HUMAN,"Golgi,Cytoplasm","Golgi,Cytoplasm"
+I17RC_HUMAN,Membrane,Membrane
+KPRB_HUMAN,Cytoplasm,Cytoplasm
+AP2A_HUMAN,Nucleus,Nucleus
+DNER_HUMAN,Membrane,Membrane
+UBA5_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm",None provided
+STIM2_HUMAN,"Membrane,Endoplasmic_Reticulum",None provided
+HSF1_HUMAN,"Nucleus,Cytoplasm",Nucleus
+RWDD1_HUMAN,Cytoplasm,Cytoplasm
+KC1A_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+RAB30_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+T11X1_HUMAN,None provided,None provided
+AP3M1_HUMAN,"Golgi,Membrane,Cytoplasm","Golgi,Membrane,Cytoplasm"
+PI2R_HUMAN,Membrane,Membrane
+CP089_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+EGR4_HUMAN,None provided,None provided
+AP2M1_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+COX18_HUMAN,Membrane,Membrane
+ADCK2_HUMAN,Membrane,Membrane
+SWT1_HUMAN,Nucleus,Nucleus
+5HT4R_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TIGAR_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+H15_HUMAN,Nucleus,"Extracellular,Nucleus"
+RL1D1_HUMAN,Membrane,Membrane
+TA2R5_HUMAN,Membrane,Membrane
+ZN883_HUMAN,Nucleus,Nucleus
+ACE2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+PSME2_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+MK07_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TADBP_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+EFHD1_HUMAN,Membrane,Membrane
+UBP15_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+O51S1_HUMAN,Membrane,Membrane
+SHF_HUMAN,None provided,None provided
+ABC3G_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SELB_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+S22AF_HUMAN,Membrane,Membrane
+HM20A_HUMAN,Nucleus,None provided
+UBAC1_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+NFIP1_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+APOF_HUMAN,Extracellular,Extracellular
+GA2L2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+S27A3_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ATX1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SUSD3_HUMAN,Membrane,Membrane
+O52H1_HUMAN,Membrane,Membrane
+TT39C_HUMAN,None provided,Cytoplasm
+SPEM1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+KLDC1_HUMAN,Cytoplasm,Cytoplasm
+KCMF1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CEAM7_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+HIPL2_HUMAN,Extracellular,Extracellular
+RN126_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TMM44_HUMAN,Membrane,Membrane
+VN1R3_HUMAN,Membrane,Membrane
+RFT1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+RCC1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SPIR2_HUMAN,"Membrane,Cytoplasm",None provided
+BRAF_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+MAGAA_HUMAN,Nucleus,Nucleus
+HXB7_HUMAN,Nucleus,Nucleus
+SMRD2_HUMAN,Nucleus,Membrane
+IP3KC_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SEH1_HUMAN,Membrane,Membrane
+LCLT1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ATG5_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+RDH12_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+CNTFR_HUMAN,Membrane,Membrane
+ETFA_HUMAN,None provided,None provided
+PSN2_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm",Membrane
+DNAI3_HUMAN,Cytoplasm,Cytoplasm
+DDX23_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+VAS1L_HUMAN,None provided,None provided
+YH007_HUMAN,None provided,None provided
+BYST_HUMAN,"Membrane,Cytoplasm",Cytoplasm
+PLS2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+KCNN1_HUMAN,Membrane,Membrane
+RASL1_HUMAN,None provided,Membrane
+CAAP1_HUMAN,None provided,None provided
+TLCD1_HUMAN,Membrane,Membrane
+PIGU_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+GRIN2_HUMAN,Membrane,Membrane
+APLF_HUMAN,Nucleus,Nucleus
+CRBB3_HUMAN,None provided,None provided
+PROS_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+RBG1L_HUMAN,"Golgi,Nucleus","Golgi,Nucleus"
+CO8A2_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum","Membrane,Extracellular,Endoplasmic_Reticulum"
+RFIP5_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+FFAR2_HUMAN,Membrane,Membrane
+SCN2B_HUMAN,Membrane,Membrane
+SSMM1_HUMAN,Membrane,None provided
+IFNL1_HUMAN,Extracellular,Extracellular
+SLAF7_HUMAN,Membrane,Membrane
+BECN1_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+HYALP_HUMAN,Membrane,Membrane
+CLM1_HUMAN,Membrane,Membrane
+RGMC_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CSK_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+CSTP1_HUMAN,Cytoplasm,Cytoplasm
+RFPLA_HUMAN,Cytoplasm,Cytoplasm
+TRIM7_HUMAN,"Golgi,Nucleus,Cytoplasm","Golgi,Nucleus,Cytoplasm"
+LRSM1_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CLK1_HUMAN,Nucleus,Nucleus
+TRI25_HUMAN,Cytoplasm,Cytoplasm
+NUDC3_HUMAN,Cytoplasm,Cytoplasm
+TINAG_HUMAN,"Membrane,Extracellular",Extracellular
+CDR2_HUMAN,Cytoplasm,Cytoplasm
+CAPON_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+CCD43_HUMAN,None provided,None provided
+IP3KB_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+FBX50_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+ADA2B_HUMAN,Membrane,Membrane
+CASL_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+DHH_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+RAB23_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+SOCS7_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+DCNL5_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NAGK_HUMAN,Extracellular,Extracellular
+TGDS_HUMAN,None provided,None provided
+TBA4B_HUMAN,Cytoplasm,Cytoplasm
+LX15B_HUMAN,"Membrane,Extracellular,Nucleus","Membrane,Extracellular,Nucleus"
+CLD22_HUMAN,Membrane,Membrane
+HDA11_HUMAN,"Membrane,Nucleus",Membrane
+S15A1_HUMAN,Membrane,"Membrane,Extracellular"
+RAB3I_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+TMM40_HUMAN,Membrane,None provided
+AIRIM_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+EI2BB_HUMAN,Cytoplasm,Membrane
+ATX3_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+3BP1_HUMAN,Nucleus,Nucleus
+KCNQ5_HUMAN,Membrane,Membrane
+S52A2_HUMAN,Membrane,Membrane
+RHOQ_HUMAN,"Golgi,Membrane,Extracellular","Golgi,Membrane,Extracellular"
+FBX6_HUMAN,"Endoplasmic_Reticulum,Cytoplasm",None provided
+UPK3B_HUMAN,Membrane,Membrane
+ZBT41_HUMAN,Nucleus,Nucleus
+IQCF1_HUMAN,None provided,None provided
+VMA5A_HUMAN,None provided,None provided
+LMTD1_HUMAN,Cytoplasm,None provided
+MOT5_HUMAN,Membrane,Membrane
+RPC5_HUMAN,None provided,None provided
+ZF69B_HUMAN,Nucleus,Nucleus
+TR64C_HUMAN,Cytoplasm,Cytoplasm
+RIPK2_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+KCC2A_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+U17L6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SDSL_HUMAN,None provided,None provided
+PLCD4_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus","Membrane,Endoplasmic_Reticulum,Nucleus"
+TM116_HUMAN,Membrane,Membrane
+RNAS9_HUMAN,Extracellular,Extracellular
+RPF1_HUMAN,None provided,None provided
+RL3R2_HUMAN,Membrane,Membrane
+LUC7L_HUMAN,None provided,None provided
+SLAF5_HUMAN,Membrane,Membrane
+LRC26_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+CAN11_HUMAN,Cytoplasm,Cytoplasm
+PCY1A_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus",Cytoplasm
+STT3A_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+TMM25_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ZN703_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+GHC2_HUMAN,Membrane,Membrane
+ERI6B_HUMAN,None provided,None provided
+RPA34_HUMAN,None provided,None provided
+GSTCD_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+NKG2D_HUMAN,Membrane,Membrane
+SIM2_HUMAN,None provided,None provided
+GHRHR_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+CBPA3_HUMAN,Extracellular,Extracellular
+NDF4_HUMAN,Nucleus,Nucleus
+PA24A_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+CYLC2_HUMAN,Nucleus,Nucleus
+SLX9_HUMAN,None provided,None provided
+ALKB4_HUMAN,Cytoplasm,Cytoplasm
+RBP56_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+K1C14_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+RHG06_HUMAN,Cytoplasm,Cytoplasm
+NT2NC_HUMAN,Extracellular,"Extracellular,Endoplasmic_Reticulum"
+HS74L_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+ZNT9_HUMAN,"Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Membrane,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+SET_HUMAN,"Endoplasmic_Reticulum,Nucleus,Cytoplasm",Cytoplasm
+TR61B_HUMAN,None provided,None provided
+BORG1_HUMAN,"Membrane,Cytoplasm",None provided
+CD8B_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ANGE1_HUMAN,"Golgi,Endoplasmic_Reticulum,Nucleus,Cytoplasm","Golgi,Endoplasmic_Reticulum,Nucleus,Cytoplasm"
+ADAM8_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+RB39B_HUMAN,"Golgi,Membrane,Cytoplasm",Membrane
+MBD4_HUMAN,Nucleus,Nucleus
+PACC1_HUMAN,Membrane,Membrane
+KCNF1_HUMAN,Membrane,Membrane
+DMP1_HUMAN,"Extracellular,Endoplasmic_Reticulum,Nucleus","Extracellular,Endoplasmic_Reticulum,Nucleus"
+GSAP_HUMAN,Golgi,Golgi
+LYCHS_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CASD1_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+FBW1A_HUMAN,Cytoplasm,Cytoplasm
+NED4L_HUMAN,"Golgi,Extracellular,Cytoplasm",Membrane
+T22D4_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+CYBR1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+CCD60_HUMAN,None provided,None provided
+INCE_HUMAN,Nucleus,None provided
+CTL1_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+ACKR1_HUMAN,Membrane,Membrane
+PBX3_HUMAN,Nucleus,Nucleus
+RAVR1_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NFIL3_HUMAN,Nucleus,Nucleus
+PP16A_HUMAN,"Membrane,Cytoplasm",None provided
+KR109_HUMAN,None provided,None provided
+UBP11_HUMAN,Nucleus,Nucleus
+KMT5C_HUMAN,Nucleus,Nucleus
+SAMTR_HUMAN,None provided,None provided
+ELOV6_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+MYBPP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+FA47D_HUMAN,None provided,None provided
+KALM_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+F262_HUMAN,None provided,None provided
+COLQ_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+TBCB_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+NDUF5_HUMAN,Membrane,Membrane
+HERP1_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+RAB1B_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+UBP2_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+DNM1L_HUMAN,"Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm","Golgi,Membrane,Endoplasmic_Reticulum,Cytoplasm"
+HMGX4_HUMAN,None provided,None provided
+FIBP_HUMAN,"Membrane,Nucleus",Membrane
+AVIL_HUMAN,Cytoplasm,Cytoplasm
+AL7A1_HUMAN,"Extracellular,Nucleus","Extracellular,Nucleus"
+IKBB_HUMAN,Nucleus,Nucleus
+RB15B_HUMAN,Nucleus,None provided
+DC8L2_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+OR4M1_HUMAN,Membrane,Membrane
+PROL1_HUMAN,Extracellular,Extracellular
+DREB_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+TCPQM_HUMAN,None provided,None provided
+BIVM_HUMAN,"Extracellular,Nucleus,Cytoplasm","Extracellular,Nucleus,Cytoplasm"
+D2HDH_HUMAN,None provided,None provided
+DAAF8_HUMAN,None provided,None provided
+LRC30_HUMAN,None provided,None provided
+PIGR_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+KLH12_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+DBX1_HUMAN,Nucleus,Nucleus
+OTX1_HUMAN,Nucleus,Nucleus
+UBQLN_HUMAN,None provided,None provided
+TCF25_HUMAN,Nucleus,Nucleus
+SC23B_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+T53G5_HUMAN,"Nucleus,Cytoplasm",None provided
+DDX21_HUMAN,Membrane,Membrane
+PLGT2_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+MB213_HUMAN,None provided,None provided
+GET3_HUMAN,"Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm","Membrane,Extracellular,Endoplasmic_Reticulum,Cytoplasm"
+GLP2R_HUMAN,Membrane,Membrane
+PDGFD_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum","Golgi,Membrane,Extracellular,Endoplasmic_Reticulum"
+EST4A_HUMAN,Extracellular,Extracellular
+LYPA2_HUMAN,"Golgi,Extracellular,Cytoplasm","Golgi,Extracellular,Cytoplasm"
+MITOK_HUMAN,Membrane,Membrane
+ETV7_HUMAN,Nucleus,None provided
+SLAI2_HUMAN,None provided,None provided
+SSBP4_HUMAN,Nucleus,Nucleus
+GLMN_HUMAN,Cytoplasm,Cytoplasm
+SOST_HUMAN,"Golgi,Extracellular","Golgi,Extracellular"
+ADAT3_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TIP_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+SPMA2_HUMAN,Nucleus,Nucleus
+NPL_HUMAN,None provided,Membrane
+ABHD2_HUMAN,Membrane,Membrane
+FUT11_HUMAN,"Golgi,Membrane","Golgi,Membrane"
+KTNA1_HUMAN,Cytoplasm,Cytoplasm
+GPR78_HUMAN,Membrane,Membrane
+NOSIP_HUMAN,"Golgi,Membrane,Nucleus,Cytoplasm","Golgi,Membrane,Nucleus,Cytoplasm"
+RNB3L_HUMAN,Cytoplasm,Cytoplasm
+BANP_HUMAN,None provided,None provided
+DCNL3_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+CQ113_HUMAN,None provided,Membrane
+GCH1_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+PRR11_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+FA98B_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+TM174_HUMAN,"Membrane,Endoplasmic_Reticulum",Membrane
+FKBP4_HUMAN,"Extracellular,Cytoplasm","Extracellular,Cytoplasm"
+P2Y10_HUMAN,Membrane,Membrane
+BTBD1_HUMAN,Cytoplasm,Cytoplasm
+ZNG1C_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+PRP19_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+ELL2_HUMAN,None provided,None provided
+AMNLS_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+FGF3_HUMAN,"Extracellular,Cytoplasm",None provided
+TM9S3_HUMAN,Membrane,Membrane
+WIPF2_HUMAN,None provided,None provided
+DRA_HUMAN,"Golgi,Membrane,Extracellular,Endoplasmic_Reticulum",Membrane
+ANKL1_HUMAN,Cytoplasm,Cytoplasm
+TCO2_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+PM2PB_HUMAN,None provided,None provided
+CXXC1_HUMAN,Nucleus,Nucleus
+C1S_HUMAN,Extracellular,Extracellular
+ZN789_HUMAN,Nucleus,Nucleus
+CDK7_HUMAN,"Membrane,Nucleus,Cytoplasm",None provided
+CP3A4_HUMAN,"Membrane,Endoplasmic_Reticulum,Cytoplasm","Membrane,Endoplasmic_Reticulum,Cytoplasm"
+MAGB2_HUMAN,Nucleus,Nucleus
+TF7L2_HUMAN,Nucleus,Nucleus
+CEBPB_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+HCFC2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+KS6A4_HUMAN,"Nucleus,Cytoplasm",Membrane
+TLDC2_HUMAN,Nucleus,Nucleus
+IL1R2_HUMAN,"Membrane,Extracellular,Cytoplasm","Membrane,Extracellular,Cytoplasm"
+PP2D1_HUMAN,None provided,None provided
+SSR4_HUMAN,Membrane,Membrane
+CFA73_HUMAN,None provided,None provided
+PDP1_HUMAN,None provided,None provided
+GARE2_HUMAN,None provided,None provided
+MUC18_HUMAN,"Membrane,Extracellular","Membrane,Extracellular"
+TMM33_HUMAN,"Membrane,Endoplasmic_Reticulum","Membrane,Endoplasmic_Reticulum"
+ABRX1_HUMAN,Nucleus,Nucleus
+S14L6_HUMAN,Cytoplasm,Cytoplasm
+LIPC_HUMAN,"Extracellular,Endoplasmic_Reticulum","Extracellular,Endoplasmic_Reticulum"
+SOX12_HUMAN,None provided,None provided
+ZBT32_HUMAN,Nucleus,Nucleus
+CDC6_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+SNCAP_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MA7D3_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+ZN546_HUMAN,Nucleus,Nucleus
+EGR2_HUMAN,"Membrane,Nucleus,Cytoplasm","Membrane,Nucleus,Cytoplasm"
+S17A5_HUMAN,Membrane,Membrane
+SNX5_HUMAN,"Membrane,Cytoplasm","Membrane,Cytoplasm"
+MAZ_HUMAN,Nucleus,Nucleus
+DCMC_HUMAN,Cytoplasm,Membrane
+PRS55_HUMAN,Membrane,Membrane
+CDK17_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+TDG_HUMAN,"Membrane,Nucleus",None provided
+HPLN2_HUMAN,Extracellular,Extracellular
+S38AB_HUMAN,Membrane,Membrane
+HXA9_HUMAN,Nucleus,Nucleus
+TSNA1_HUMAN,Membrane,Membrane
+DELE1_HUMAN,Membrane,Membrane
+RT26_HUMAN,Membrane,Membrane
+CENL1_HUMAN,None provided,None provided
+ZN219_HUMAN,"Membrane,Nucleus","Membrane,Nucleus"
+RIPK3_HUMAN,"Nucleus,Cytoplasm","Nucleus,Cytoplasm"
+DPH5_HUMAN,None provided,None provided
+GPR63_HUMAN,Membrane,Membrane
+SO1C1_HUMAN,Membrane,Membrane
+RHCE_HUMAN,Membrane,Membrane
+DCA16_HUMAN,None provided,None provided
+ARGFX_HUMAN,Nucleus,Nucleus
+RBM25_HUMAN,Cytoplasm,Cytoplasm
+CAD20_HUMAN,None provided,None provided

@@ -1,0 +1,590 @@
+# NB: Please copy this script into R; Moodle submission would not accept an .R file or a zip folder, so I have had to export as a .txt file for submission purposes only. Thank you.
+# Moodle wouldn't accept the uniref_merged.csv file as well as my script, please ensure this is in your working directory for the script to run. Thanks!
+
+library(readr)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(tibble)
+
+library(e1071)
+library(caret)
+library(mlr)
+library(randomForest)
+library(pROC)
+
+library(ggplot2)
+library(gridExtra)
+
+library(shiny)
+library(bslib)
+
+# MASS OF PROTEIN GIVEN ALANINE CONTENT (INTRO) ----
+# A: Acquire and parse data ----
+read_csv("uniref_merged.csv/uniref_merged.csv") -> df
+
+# set up space for saving results
+newpath <- file.path(getwd(), "alaninemass_results")
+dir.create(newpath)
+
+# B: Clean and Prepare the dataset ----
+df %>%
+  select (-1, -"Types", -"Organism", -"Organisms", -"Size", -"Identity", -"Entry", -"Cluster members") %>%
+  mutate (Sequence = replace_na(df$Sequence, "U")) -> df # impute a non-standard placeholder amino acid if there is no sequence present
+
+aminoacids <- unique(strsplit(paste0(df$Sequence, collapse=""), '')[[1]])
+
+for (c in aminoacids) {
+  df[c] <- str_count(df$Sequence, c)
+}
+
+png(filename="alaninemass_results/amino_acid_boxplot.png")
+pivot_longer(df[aminoacids], cols=aminoacids) %>%
+  ggplot(aes(x=name, y=value, fill=name)) +
+  geom_boxplot()
+dev.off()
+
+df %>% select (all_of(aminoacids), "Mass") -> dfa
+write_csv(dfa, "alaninemass_results/cleaned_data.csv")
+
+# linear regression model, association between Alanine and Mass
+df.lm <- lm(Mass ~ A, dfa)
+
+plot(dfa$Mass, predict(df.lm))
+abline(a=1,b=1, col="red")
+
+# C: Make a classifier ----
+## Task: Make a near-perfect predictor for the mass, given the aminoacids count
+## Create training and test data
+ntest <- trunc(nrow(dfa) / 3)
+df_rows <- c(1:nrow(dfa))
+
+testid <- sample(df_rows, ntest)
+trainid <- df_rows[!df_rows %in% testid]
+
+dfa %>% slice(testid) -> testing
+dfa %>% slice(trainid) -> training
+
+# D: Train the classifier ----
+library(e1071)
+mass_svm <- svm(Mass ~ . -Mass, data = training, kernal = "linear", cross=5, cost=4)
+
+# E: Predict with the test data ----
+Prediction <- predict(mass_svm, testing)
+
+# F: Summary Statistics ----
+library(caret)
+summary_stats <- postResample(pred = Prediction, obs = testing$Mass)
+summary_stats[2]
+
+# G: Visualise the results ----
+png(filename="alaninemass_results/Mass_Prediction_Plot.png")
+ggplot(testing, aes(x=Mass, y=Prediction)) +
+  ggtitle("Mass prediction from composition of amino acids") +
+  scale_y_continuous(breaks=seq(0, 120000, 10000)) +
+  scale_x_continuous(breaks=seq(0, 120000, 10000)) +
+  geom_point(shape=1, color="lightblue4") +
+  geom_smooth(method=lm, color="black") +
+  theme_bw()
+dev.off()
+
+
+#__________________________________________----
+
+# SUBCELLULAR LOCATION CLASSIFIER (MAIN) ----
+# A: Acquire and parse the data ----
+read_csv("uniref_merged.csv/uniref_merged.csv") -> uniref
+
+# set up space for saving results
+newpath <- file.path(getwd(), "subcellular_results")
+dir.create(newpath)
+
+# B: Clean and Prepare the dataset ----
+uniref %>%
+  select ("Sequence", Length:Cytoplasm) %>%
+  # Impute a value for empty sequences
+  mutate (Sequence = replace_na(uniref$Sequence, "U")) %>%
+  rename ("Endoplasmic_Reticulum" = "Endoplasmic Reticulum") -> df
+
+## Create a plot showing the relationship between sequence length and subcellular location
+df %>%
+  select (-"Sequence") %>%
+  group_by (Length) %>%
+  summarise_all (sum) %>%
+  pivot_longer (cols=c(Golgi:Cytoplasm)) -> location_plotprep
+
+png(filename="subcellular_results/Sequence_Length_vs_Subcellular_Location.png")
+ggplot (location_plotprep, aes(x=Length, y=value, colour=name, shape=name)) +
+  geom_line (alpha=.2) +
+  geom_smooth (linewidth=1) +
+  ggtitle ("Relationship between sequence length and subcellular location") +
+  xlab ("Sequence Length") +
+  scale_x_continuous (breaks=seq(200, 1000, 100)) +
+  ylab ("Number of occurances") +
+  scale_y_continuous (breaks=seq(0, 40, 2)) +
+  theme_bw () +
+  theme (legend.title=element_blank())
+dev.off()
+
+## Produce individual amino acid counts for each sequence
+aminoacids <- unique(strsplit(paste0(df$Sequence, collapse=""), '')[[1]])
+
+for (c in aminoacids) {
+  df[c] <- str_count(df$Sequence, c)
+}
+df[,-1:-2] -> df
+
+write_csv(df, "subcellular_results/Cleaned_data.csv")
+
+## Create a plot relating bias in sequence composition to subcellular location
+df %>%
+  mutate (seqbias = names(df[,7:27])[max.col(df[,7:27])]) %>%
+  select (Golgi:Cytoplasm, seqbias) %>%
+  group_by (seqbias) %>%
+  summarise_all (sum) %>%
+  pivot_longer (cols=c(Golgi:Cytoplasm)) -> bias_plotprep
+
+png(filename="subcellular_results/Sequence_Composition_Subcellular_Location.png")
+ggplot (bias_plotprep, aes(x=seqbias, y=value, fill=name)) +
+  geom_bar(stat="identity", position=position_stack(), width=0.75) +
+  ggtitle ("Amino Acid Bias and the relation to subcellular location") +
+  xlab ("Amino Acid Bias") +
+  ylab ("Number of locations with the specified amino acid bias") +
+  scale_y_continuous (breaks=seq(0, 10000, 1000)) +
+  theme_bw () +
+  theme (legend.title=element_blank())
+dev.off()
+
+## Split your data in a training and test (validation) set
+ntest <- trunc(nrow(df) / 5) # 80:20 split
+df_rows <- c(1:nrow(df))
+
+set.seed(123)
+df %>% slice(sample(df_rows, ntest)) -> testing # independent test set for evaluation later on
+df %>% slice(df_rows[!df_rows %in% sample(df_rows, ntest)]) -> training
+
+# plot to check the test/training sets have roughly the same proportion of classes
+pivot_longer(training[,1:6], cols=c(Golgi:Cytoplasm)) %>%
+  group_by(name) %>%
+  summarise_all(sum) %>%
+  rename("training" = "value") -> train_data_plot
+
+pivot_longer(testing[,1:6], cols=c(Golgi:Cytoplasm)) %>%
+  group_by(name) %>%
+  summarise_all(sum) %>%
+  mutate (value = value*4) %>% # because test set is 1/4 of the training set, scales for direct comparison
+  rename("testing" = "value") -> test_data_plot
+
+png(filename="subcellular_results/Training_Testing_Data_Composition.png")
+left_join(train_data_plot, test_data_plot, by="name") %>%
+  pivot_longer(cols=c(training, testing),names_to="set_type") %>%
+  ggplot(aes(fill=set_type, y=value, x=name)) +
+  geom_bar(position='dodge', stat='identity') +
+  xlab("Component Type") +
+  ylab("Number of Observations") +
+  ggtitle("Composition of the training and validation (test) datasets") +
+  theme_bw() +
+  theme (axis.text.x  = element_text(angle=45, size=10, hjust=1))
+dev.off()
+
+# C: Make and train the classifier ----
+## Random Forest multi-label classifier
+library(mlr)
+library(randomForest)
+
+labels <- c(colnames(df[,1:6]))
+multilabel_training <- makeMultilabelTask(id = "multilabel", data = training, target = labels)
+
+# create learner
+learner_randomforest <- makeLearner("classif.randomForest", predict.type = "prob", fix.factors.prediction = TRUE)
+learner_randomforest <- makeMultilabelBinaryRelevanceWrapper(learner_randomforest)
+
+# Hyperparameter tuning (NB: takes ~10 mins to run through!)
+
+## search space (want to prevent over-fitting by making too many trees, so am tuning to use a lower number of trees)
+ntree_parameter <- makeParamSet(makeNumericParam("ntree", lower=1, upper=200, trafo=function(x) floor(x)))
+## optimisation algorithm
+control <- makeTuneControlGrid(resolution=20)
+## evaluation method (resampling)
+evaluation <- makeResampleDesc("Subsample", iters=3, split=4/5)
+
+tuning <- tuneParams(learner_randomforest, 
+                     multilabel_training,
+                     evaluation,
+                     measures = list(multilabel.f1),
+                     ntree_parameter,
+                     control)
+
+plotHyperParsEffect(generateHyperParsEffectData(tuning), x="ntree", y="multilabel.f1.test.mean")
+top_tree <- as.data.frame(tuning$x) #should come out as around 53/63
+
+# re-training with optimised tree number
+learner_randomforest <- makeLearner("classif.randomForest", predict.type = "prob", fix.factors.prediction = TRUE, ntree=53)
+learner_randomforest <- makeMultilabelBinaryRelevanceWrapper(learner_randomforest)
+model_randomforest <- train(learner_randomforest, multilabel_training)
+
+saveRDS(model_randomforest, file="subcellular_results/model_randomforest.rds")
+
+# cross validation
+cross_validation <- makeResampleDesc("Subsample", iters=10, split=4/5, predict="both")
+r <- resample(learner_randomforest, multilabel_training, cross_validation, measures=list(multilabel.hamloss, multilabel.f1))
+
+# plot subsampling, check loss and f1 (accuracy) with sampling, aiming for consistent performance for training and testing data.
+png(filename = "subcellular_results/Cross-validation assessment.png")
+par(mfrow=c(2,1))
+
+plot(r$measures.train$multilabel.hamloss, type="b", ylim=c(0,1), ylab="Hamming Loss", xlab="Subsample Iteration", main="Cross-validation, Loss over iterations", col="red")
+points(r$measures.test$multilabel.hamloss, type="b", col="blue")
+legend("topleft", legend = c("Training Data", "Testing Data"), col = c("red","blue"), lwd=2)
+
+plot(r$measures.train$multilabel.f1, type="b", ylim=c(0,1), ylab="F1 Score", xlab="Subsample Iteration", main="Cross-validation, Accuracy over iterations", col="red")
+points(r$measures.test$multilabel.f1, type="b", col="blue")
+
+dev.off()
+
+# D: Predict on independent test data ----
+model_default_predictions <- predict(model_randomforest, newdata = testing) # default threshold of 0.5
+
+# Optimisation: see which threshold for each label is best? (default: >0.5 prob = TRUE) (maximise: F1 score)
+threshold_range <- seq(0.1, 1.0, by=0.1)
+f1_dataframe <- data.frame(label=c(labels))
+
+threshold_checker <- function(threshold) {
+  m <- setThreshold(model_default_predictions, c(Golgi=threshold, Membrane=threshold, Extracellular=threshold, Endoplasmic_Reticulum=threshold, Nucleus=threshold, Cytoplasm=threshold))
+  f1_dataframe <- cbind(f1_dataframe, data.frame(getMultilabelBinaryPerformances(m, measures = f1), row.names=NULL))
+  return(f1_dataframe)
+}
+
+for (i in threshold_range) {threshold_checker(i)} -> f1_dataframe
+colnames(f1_dataframe) <- c("label", threshold_range)
+
+f1_dataframe %>%
+  mutate(optimal_threshold = colnames(f1_dataframe[,-1])[max.col(f1_dataframe[,-1])]) %>%
+  pull(optimal_threshold) -> optimal_thresholds
+optimal_thresholds <- as.numeric(optimal_thresholds)
+
+# D: Predict with the optimally performing thresholds for each label
+model_predictions <- setThreshold(model_default_predictions, c(Golgi=optimal_thresholds[1], 
+                                                               Membrane=optimal_thresholds[2], 
+                                                               Extracellular=optimal_thresholds[3], 
+                                                               Endoplasmic_Reticulum=optimal_thresholds[4], 
+                                                               Nucleus=optimal_thresholds[5], 
+                                                               Cytoplasm=optimal_thresholds[6]))
+
+saveRDS(model_predictions, file = "subcellular_results/model_predictions.rds")
+
+## File 1: Real values, predicted values, and identifying information for each sample (labelling appropriate columns) ----
+pred_table <- data.frame(model_predictions["data"])
+
+set.seed(123) #same seed as the testing/training data split
+uniref %>%
+  slice(sample(df_rows, ntest)) %>%
+  select (`Entry Name`) %>%
+  cbind(pred_table) %>%
+  rename_with(~ gsub("data.truth.", "", .x)) %>%
+  rename_with(~ gsub("data.response.", "predicted", .x)) -> testing_identifiable
+
+# cleaning output: making data more human-readable (one col with real compartments, and one with predicted compartments)
+testing_identifiable %>%
+  mutate(across(c(2:7,14:19), ~ if_else(.x == TRUE, cur_column(), NA))) %>%
+  unite("true_compartments", Golgi:Cytoplasm, sep=",", na.rm=TRUE) %>%
+  unite("predicted_compartments", predictedGolgi:predictedCytoplasm, sep=",", na.rm=TRUE) %>%
+  mutate(predicted_compartments = str_replace_all(predicted_compartments, "predicted", "")) %>%
+  mutate(across(ends_with("_compartments"), ~ replace(., . == "", "None provided"))) %>%
+  select(1,2,9) %>%
+  write_csv("subcellular_results/Predicted Subcellular Compartments.csv")
+
+# E: Summary statistics and visualisation ----
+model_avg_assessment <- performance(model_predictions, measures = list(multilabel.hamloss, multilabel.f1, timetrain), model = model_randomforest)
+print(model_avg_assessment)
+model_label_assessment <- data.frame(getMultilabelBinaryPerformances(model_predictions, measures = list(f1, acc, mmce)))
+
+## Summary statistics, across predicted categories ----
+library(tibble)
+library(pROC)
+
+model_label_assessment %>%
+  rename(Mean_F1 = f1.test.mean, Mean_Accuracy = acc.test.mean, Mean_Misclassification = mmce.test.mean) %>%
+  rownames_to_column("Compartment") %>%
+  write_csv("subcellular_results/Summary_Statistics.csv")
+
+## Plot 1: Confusion Matrices
+library(gridExtra)
+
+png(filename = "subcellular_results/Confusion Matrices.png")
+
+generate_matrix <- function(compartment, truth, response, colour) {
+  name <- confusionMatrix(data = as.factor(model_predictions$data[,response]), reference = as.factor(model_predictions$data[,truth]))
+  compartment_matrix <- as.data.frame(name$table)
+  ggplot(compartment_matrix, aes(x = Reference, y = Prediction, fill = Freq)) +
+    geom_tile(color = "white") +
+    geom_text(aes(label = Freq)) +
+    scale_fill_gradient(low = "white", high = colour) +
+    labs(title = compartment, x = "Actual", y = "Predicted") +
+    theme_minimal()
+}
+
+golgi <- generate_matrix("Golgi", 13, 1, "indianred3")
+membrane <- generate_matrix("Membrane", 14, 2, "orange")
+extra <- generate_matrix("Extracellular", 15, 3, "yellow")
+er <- generate_matrix("Endoplasmic Reticulum", 16, 4, "chartreuse2")
+nucleus <- generate_matrix("Nucleus", 17, 5, "royalblue2")
+cytoplasm <- generate_matrix("Cytoplasm", 18, 6, "violet")
+
+grid.arrange(golgi, membrane, extra, er, nucleus, cytoplasm, ncol = 2, nrow = 3)
+
+dev.off()
+
+# Plot 2: ROC curves
+png(filename = "subcellular_results/ROC Curves for each label.png")
+
+par(mfrow = c(1,1))
+plot(roc(model_predictions$data$truth.Golgi, model_predictions$data$prob.Golgi), col="indianred3", 
+     main="Sensitivity vs Specificty for each label",
+     xlab = "False Positive Rate", ylab = "True Positive Rate")
+lines(roc(model_predictions$data$truth.Membrane, model_predictions$data$prob.Membrane), col="orange")
+lines(roc(model_predictions$data$truth.Extracellular, model_predictions$data$prob.Extracellular), col="yellow")
+lines(roc(model_predictions$data$truth.Endoplasmic_Reticulum, model_predictions$data$prob.Endoplasmic_Reticulum), col="chartreuse2")
+lines(roc(model_predictions$data$truth.Nucleus, model_predictions$data$prob.Nucleus), col="royalblue2")
+lines(roc(model_predictions$data$truth.Cytoplasm, model_predictions$data$prob.Cytoplasm), col="violet")
+
+legend("bottomright", legend = c("Golgi", "Membrane", "Extracellcular", "Endoplasmic_Reticulum", "Nucleus", "Cytoplasm"), 
+       col = c("indianred3","orange","yellow","chartreuse2","royalblue2","violet"), lwd=2)
+
+dev.off()
+
+# F: Create an R Shiny app from exported output files ----
+## Functions for the app ----
+
+library(shiny)
+library(ggExtra)
+library(gridExtra)
+library(bslib)
+library(caret)
+library(dplyr)
+library(pROC)
+
+summary_stats <- read.csv("subcellular_results/Summary_Statistics.csv")
+predictions <- read.csv("subcellular_results/Predicted Subcellular Compartments.csv")
+truth_set <- read.csv("uniref_merged.csv/uniref_merged.csv")
+truth_set %>%
+  left_join(predictions, by="Entry.Name") %>%
+  select(-1,-"Golgi":-"Cytoplasm",-"Identity",-"Cluster.members",-"Sequence",-"First.member",-"Organism",-"Types",-"Size",-"Gene.Ontology..cellular.component.",-"Organisms") %>%
+  relocate(c("Entry.Name", "true_compartments", "predicted_compartments")) -> truth_set
+model_predictions <- readRDS("subcellular_results/model_predictions.rds")
+labels <- c("Golgi", "Membrane", "Extracellular", "Endoplasmic Reticulum", "Nucleus", "Cytoplasm")
+
+generate_matrix <- function(compartment, truth, response, colour) {
+  name <- confusionMatrix(data = as.factor(model_predictions$data[,response]), reference = as.factor(model_predictions$data[,truth]))
+  compartment_matrix <- as.data.frame(name$table)
+  ggplot(compartment_matrix, aes(x = Reference, y = Prediction, fill = Freq)) +
+    geom_tile(color = "white") +
+    geom_text(aes(label = Freq)) +
+    scale_fill_gradient(low = "white", high = colour) +
+    labs(x = "Actual", y = "Predicted") +
+    theme_minimal()
+}
+
+tab_maker <- function(compartment, tab_title, iter, truth) {
+  tabPanel(compartment, 
+           tags$h1(tab_title, style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons(
+                   iter,
+                   "Prediction Quality Metric",
+                   choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(
+                 uiOutput(compartment))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(
+             column(10, 
+                    dataTableOutput(truth)),
+             br(),
+             br()))
+}
+
+server_maker <- function(input, output, compartment, iter, truth, truth_col, prob_col, response_col, label_row, colour) {
+  output$truth <- renderDataTable(truth_set, options=list(pageLength=5))
+  
+  # switches out the statistical plot depending on radio button selection
+  output$compartment <- renderUI({
+    plot_type <- input$iter
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,truth_col], model_predictions$data[,prob_col]), col=colour, 
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, truth_col, response_col, colour)),
+      "Statistics Table" = renderTable(summary_stats[label_row,]),
+      NULL)
+    div(plot_area)
+  })
+}
+
+## Loading the app ----
+## Apologies for the repeating code! I tried to make these into functions (see above), which worked for a single tab but not across multiple tabs unfortunately. 
+ui <- navbarPage(
+  "Subcellular Compartment Predictions",
+  theme = bs_theme(bootswatch="flatly"),
+  tabPanel("Golgi",
+           tags$h1("Golgi Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats1", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Golgi"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_g")),
+                    br(),
+                    br())),
+  tabPanel("Membrane",
+           tags$h1("Membrane Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats2", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Membrane"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_m")),
+                    br(),
+                    br())),
+  tabPanel("Extracellular",
+           tags$h1("Extracellular Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats3", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Extracellular"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_ex")),
+                    br(),
+                    br())),
+  tabPanel("Endoplasmic_Reticulum",
+           tags$h1("Endoplasmic_Reticulum Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats4", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Endoplasmic_Reticulum"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_en")),
+                    br(),
+                    br())),
+  tabPanel("Nucleus",
+           tags$h1("Nucleus Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats5", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Nucleus"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_n")),
+                    br(),
+                    br())),
+  tabPanel("Cytoplasm",
+           tags$h1("Cytoplasm Sub-compartment Predictions", style="font-size: 32px;"),
+           fluidRow(
+             sidebarLayout(
+               sidebarPanel(
+                 radioButtons("stats6", "Prediction Quality Metric",
+                              choices = c("ROC Curve", "Statistics Table", "Confusion Matrix"))),
+               mainPanel(uiOutput("Cytoplasm"))),
+             br()),
+           tags$h2("Examples of proteins and their predicted and true cellular compartments", style="font-size: 24px;"),
+           fluidRow(column(10, dataTableOutput("truths_c")),
+                    br(),
+                    br())),
+)
+
+server <- function(input, output, session) {
+  # bottom table
+  output$"truths_g" <- renderDataTable(truth_set %>% filter(grepl("Golgi", true_compartments)), options=list(pageLength=5))
+  output$"truths_m" <- renderDataTable(truth_set %>% filter(grepl("Membrane", true_compartments)), options=list(pageLength=5))
+  output$"truths_ex" <- renderDataTable(truth_set %>% filter(grepl("Extracellular", true_compartments)), options=list(pageLength=5))
+  output$"truths_en" <- renderDataTable(truth_set %>% filter(grepl("Endoplasmic_Reticulum", true_compartments)), options=list(pageLength=5))
+  output$"truths_n" <- renderDataTable(truth_set %>% filter(grepl("Nucleus", true_compartments)), options=list(pageLength=5))
+  output$"truths_c" <- renderDataTable(truth_set %>% filter(grepl("Cytoplasm", true_compartments)), options=list(pageLength=5))
+  
+  # switches out the statistical plot depending on radio button selection
+  output$"Golgi" <- renderUI({
+    plot_type <- input$stats1
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,1], model_predictions$data[,7]), col="indianred3",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 1, 13, "indianred3")),
+      "Statistics Table" = renderTable(summary_stats[1,]),
+      NULL)
+    div(plot_area)
+  })
+  output$"Membrane" <- renderUI({
+    plot_type <- input$stats2
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,2], model_predictions$data[,8]), col="orange",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 2, 14, "orange")),
+      "Statistics Table" = renderTable(summary_stats[2,]),
+      NULL)
+    div(plot_area)
+  })
+  output$"Extracellular" <- renderUI({
+    plot_type <- input$stats3
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,3], model_predictions$data[,9]), col="gold3",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 3, 15, "gold3")),
+      "Statistics Table" = renderTable(summary_stats[3,]),
+      NULL)
+    div(plot_area)
+  })
+  output$"Endoplasmic_Reticulum" <- renderUI({
+    plot_type <- input$stats4
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,4], model_predictions$data[,10]), col="chartreuse2",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 4, 16, "chartreuse2")),
+      "Statistics Table" = renderTable(summary_stats[4,]),
+      NULL)
+    div(plot_area)
+  })
+  output$"Nucleus" <- renderUI({
+    plot_type <- input$stats5
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,5], model_predictions$data[,11]), col="royalblue2",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 5, 17, "royalblue2")),
+      "Statistics Table" = renderTable(summary_stats[5,]),
+      NULL)
+    div(plot_area)
+  })
+  output$"Cytoplasm" <- renderUI({
+    plot_type <- input$stats6
+    plot_area <- switch(
+      plot_type,
+      "ROC Curve" = renderPlot(plot(roc(model_predictions$data[,6], model_predictions$data[,12]), col="violet",
+                                    main="Sensitivity vs Specificty", xlab = "False Positive Rate", ylab = "True Positive Rate")),
+      "Confusion Matrix" = renderPlot(generate_matrix(compartment, 6, 18, "violet")),
+      "Statistics Table" = renderTable(summary_stats[6,]),
+      NULL)
+    div(plot_area)
+  })
+}
+
+shinyApp(ui, server)
+
